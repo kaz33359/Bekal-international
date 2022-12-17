@@ -1,0 +1,16 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 17 Dec 2022 16:14:27 at https://duruthemes.com/demo/html/cappa/demo2/index.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://duruthemes.com/demo/html/cappa/demo2/index.html -O1 "E:\Templates\Bekal" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:15:20	Error: 	"Not Found" (404) at link https://duruthemes.com/demo/html/cappa/demo2/post2.html (from https://duruthemes.com/demo/html/cappa/demo2/spa-wellness.html)
+16:15:20	Error: 	"Not Found" (404) at link https://duruthemes.com/demo/html/cappa/demo2/blog2.html (from https://duruthemes.com/demo/html/cappa/demo2/news2.html)
+16:15:20	Error: 	"Not Found" (404) at link https://duruthemes.com/demo/html/cappa/demo2/post3.html (from https://duruthemes.com/demo/html/cappa/demo2/post.html)
+16:15:20	Error: 	"Not Found" (404) at link https://www.duruthemes.com/idesign/Roboto-v3/css/plugins/owl.video.play.png (from https://duruthemes.com/demo/html/cappa/demo2/css/plugins/owl.carousel.min.css)
+16:15:20	Error: 	"Not Found" (404) at link https://duruthemes.com/demo/html/cappa/demo2/css/plugins/Flaticon.svg (from https://duruthemes.com/demo/html/cappa/demo2/css/plugins/flaticon.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 53 seconds : 132 links scanned, 126 files written (10348940 bytes overall) [8108440 bytes received at 152989 bytes/sec], 2855454 bytes transferred using HTTP compression in 69 files, ratio 19%, 10.2 requests per connection
+(5 errors, 0 warnings, 0 messages)
