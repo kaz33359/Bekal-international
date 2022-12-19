@@ -53,10 +53,10 @@ $(function () {
             logo = $(".navbar .logo> img");
         if (bodyScroll > 100) {
             navbar.addClass("nav-scroll");
-            logo.attr("src", "assets/img/bekal_logo/logo.png");
+            logo.attr("src", "assets/img/bekal_logo/logo dark.png");
         } else {
             navbar.removeClass("nav-scroll");
-            logo.attr("src", "assets/img/bekal_logo/logo.png");
+            logo.attr("src", "assets/img/bekal_logo/logo dark.png");
         }
     });
     

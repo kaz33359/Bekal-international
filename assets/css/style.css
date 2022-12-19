@@ -939,7 +939,7 @@ color: #aa8453;
     /* text-align: center; */
 }
 .logo-img {
-    width: 160px;
+    width: 180px;
     margin-bottom: 0px;
 }
 .dropdown:hover .dropdown-menu,
@@ -4952,7 +4952,7 @@ button.mfp-arrow {
 }
 .footer-contact-phone {
     font-family: 'Gilda Display', serif;
-  font-size: 24px;
+  font-size: 18px;
   color: #fff;
   font-weight: 400;
   display: block;
@@ -4963,7 +4963,7 @@ button.mfp-arrow {
   color: #fff;
 }
 .footer-contact-mail {
-  font-size: 15px;
+  font-size: 18px;
   line-height: 3em;
   color: #fff;
   position: relative;
