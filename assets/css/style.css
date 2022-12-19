@@ -876,7 +876,7 @@ color: #aa8453;
 .nav-scroll .logo {
 }
 .nav-scroll .logo-img {
-    width: 120px;
+    width: 180px;
     margin-bottom: 0px;
 }
 .nav-scroll .logo-wrapper .logo h2 {
@@ -1085,7 +1085,7 @@ color: #aa8453;
         padding-right: 0px;
         background: transparent;
         padding-top: 15px;
-        padding-bottom: 15px;
+        padding-bottom: 100px;
     }
     .nav-scroll {
         background: #fff;
