@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
-    <title>IGNITE - Dashboard </title>
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+    <title>BEKAL INTERNATIONAL - Blog Manager </title>
+    <link rel="icon" type="image/x-icon" href="assets/img/bekal/logo.png" />
     <link href="assets/css/loader.css" rel="stylesheet" type="text/css" />
     <script src="assets/js/loader.js"></script>
 
@@ -16,16 +16,21 @@
     <link href="assets/css/plugins.css" rel="stylesheet" type="text/css" />
     <!-- END GLOBAL MANDATORY STYLES -->
 
-    <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM STYLES -->
-    <link href="plugins/apex/apexcharts.css" rel="stylesheet" type="text/css">
-    <link href="assets/css/dashboard/dash_2.css" rel="stylesheet" type="text/css" />
-    <!-- END PAGE LEVEL PLUGINS/CUSTOM STYLES -->
+    <!--  BEGIN CUSTOM STYLE FILE  -->
+    <link href="assets/css/users/user-profile.css" rel="stylesheet" type="text/css" />
+    <!--  END CUSTOM STYLE FILE  -->
 
-    <!-- BEGIN PAGE LEVEL CUSTOM STYLES -->
+    <!--  BEGIN CUSTOM STYLE FILE  -->
+    <link href="assets/css/scrollspyNav.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="plugins/editors/quill/quill.snow.css">
+    <!--  END CUSTOM STYLE FILE  -->
+
     <link rel="stylesheet" type="text/css" href="plugins/table/datatable/datatables.css">
     <link rel="stylesheet" type="text/css" href="plugins/table/datatable/custom_dt_html5.css">
+    <link rel="stylesheet" type="text/css" href="plugins/table/datatable/datatables.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/forms/theme-checkbox-radio.css">
     <link rel="stylesheet" type="text/css" href="plugins/table/datatable/dt-global_style.css">
-    <!-- END PAGE LEVEL CUSTOM STYLES -->
+    <link rel="stylesheet" type="text/css" href="plugins/table/datatable/custom_dt_custom.css">
 
 </head>
 
@@ -54,8 +59,8 @@
                 </svg></a>
 
             <div class="nav-logo align-self-center">
-                <a class="navbar-brand" href="index.html"> <span
-                        class="navbar-brand-name">Ignite</span></a>
+                <a class="navbar-brand" href="index.html"> <img alt="logo" src="assets/img/bekal/logo dark.png"> <span
+                        class="navbar-brand-name"></span></a>
             </div>
 
             <ul class="navbar-item flex-row mr-auto">
@@ -70,10 +75,10 @@
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <div class="media">
                             <div class="media-body align-self-center">
-                                <h6> Ignite</h6>
+                                <h6> Bekal International</h6>
                                 <p>Admin</p>
                             </div>
-                            <img src="assets/img/profile-7.jpg" class="img-fluid" alt="admin-profile">
+                            <img src="assets/img/bekal/logo.png" class="img-fluid" alt="admin-profile">
                             <span class="badge badge-success"></span>
                         </div>
                     </a>
@@ -136,55 +141,17 @@
                 <ul class="navbar-nav theme-brand flex-row  text-center">
                     <li class="nav-item theme-logo">
                         <a href="index.html">
-                            <img src="assets/img/logo.svg" class="navbar-logo" alt="logo">
+                            <img src="assets/img/bekal/logo dark.png" class="navbar-logo" alt="logo">
                         </a>
                     </li>
                     <li class="nav-item theme-text">
-                        <a href="index.html" class="nav-link"> Ignite </a>
+                        <a href="index.html" class="nav-link"> Bekal International </a>
                     </li>
                 </ul>
 
                 <ul class="list-unstyled menu-categories" id="topAccordion">
 
                     <li class="menu single-menu active">
-                        <a href="index.html">
-                            <div class="">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="feather feather-home">
-                                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-                                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
-                                </svg>
-                                <span>Dashboard</span>
-                            </div>
-                            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg> -->
-                        </a>
-                    </li>
-
-                    <li class="menu single-menu">
-                        <a href="about_us.html">
-                            <div class="">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="feather feather-cpu">
-                                    <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
-                                    <rect x="9" y="9" width="6" height="6"></rect>
-                                    <line x1="9" y1="1" x2="9" y2="4"></line>
-                                    <line x1="15" y1="1" x2="15" y2="4"></line>
-                                    <line x1="9" y1="20" x2="9" y2="23"></line>
-                                    <line x1="15" y1="20" x2="15" y2="23"></line>
-                                    <line x1="20" y1="9" x2="23" y2="9"></line>
-                                    <line x1="20" y1="14" x2="23" y2="14"></line>
-                                    <line x1="1" y1="9" x2="4" y2="9"></line>
-                                    <line x1="1" y1="14" x2="4" y2="14"></line>
-                                </svg>
-                                <span>About Us</span>
-                            </div>
-                            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg> -->
-                        </a>
-                    </li>
-
-                    <li class="menu single-menu">
                         <a href="blog.html">
                             <div class="">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -197,22 +164,6 @@
                                     <line x1="12" y1="22.08" x2="12" y2="12"></line>
                                 </svg>
                                 <span>Blog Manager</span>
-                            </div>
-                            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg> -->
-                        </a>
-                    </li>
-
-                    <li class="menu single-menu">
-                        <a href="ignite.html">
-                            <div class="">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="feather feather-clipboard">
-                                    <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2">
-                                    </path>
-                                    <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
-                                </svg>
-                                <span>Programs</span>
                             </div>
                             <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg> -->
                         </a>
@@ -244,419 +195,138 @@
                 <div class="page-header">
                     <nav class="breadcrumb-one" aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="javascript:void(0);">Dashboad</a></li>
-                            <li class="breadcrumb-item active" aria-current="page"><a
-                                    href="javascript:void(0);">Analytics</a></li>
+                            <li class="breadcrumb-item"><a href="javascript:void(0);">Blog Manager</a></li>
                         </ol>
                     </nav>
-                    <!-- <div class="dropdown filter custom-dropdown-icon">
-                        <a class="dropdown-toggle btn" href="#" role="button" id="filterDropdown" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false"><span class="text"><span>Show</span> : Daily
-                                Analytics</span> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down">
-                                <polyline points="6 9 12 15 18 9"></polyline>
-                            </svg></a>
-
-                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="filterDropdown">
-                            <a class="dropdown-item" data-value="<span>Show</span> : Daily Analytics"
-                                href="javascript:void(0);">Daily Analytics</a>
-                            <a class="dropdown-item" data-value="<span>Show</span> : Weekly Analytics"
-                                href="javascript:void(0);">Weekly Analytics</a>
-                            <a class="dropdown-item" data-value="<span>Show</span> : Monthly Analytics"
-                                href="javascript:void(0);">Monthly Analytics</a>
-                            <a class="dropdown-item" data-value="Download All" href="javascript:void(0);">Download
-                                All</a>
-                            <a class="dropdown-item" data-value="Share Statistics" href="javascript:void(0);">Share
-                                Statistics</a>
-                        </div>
-                    </div> -->
+                    
                 </div>
 
                 <div class="row layout-top-spacing">
-
-                    
-
-                    
-                    <!-- <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 layout-spacing">
-                        <div class="widget widget-account-invoice-two">
-                            <div class="widget-content">
-                                <div class="account-box">
-                                    <div class="info">
-                                        <div class="inv-title">
-                                            <h5 class="">Total Balance</h5>
+                <div class="col-xl-12 col-lg-6 col-md-7 col-sm-12 layout-top-spacing">
+                        <div class="skills layout-spacing ">
+                            <div class="widget-content widget-content-area">
+                                <h3 class="">Add Blog Details</h3>
+                                <form>
+                                    <div class="form-row mb-4">
+                                        <div class="form-group col-md-12">
+                                            <label for="exampleFormControlInput1">Author Name</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1" value="Author Name">
                                         </div>
-                                        <div class="inv-balance-info">
-
-                                            <p class="inv-balance">$ 41,741.42</p>
-
-                                            <span class="inv-stats balance-credited">+ 2453</span>
-
+                                        <div class="form-group col-md-12">
+                                            <label for="exampleFormControlInput1">Blog Title</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1" value="Title">
+                                        </div>
+                                        <div class="form-group col-md-12">
+                                            <label for="exampleFormControlInput1">Blog Summary</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1" value="Type Here">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="exampleFormControlInput1">Blog Id</label>
+                                            <input type="number" class="form-control" id="exampleFormControlInput1" value="1">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label for="exampleFormControlInput1">Posted Date</label>
+                                            <input type="date" class="form-control" id="exampleFormControlInput1" value="Alan Green">
                                         </div>
                                     </div>
-                                    <div class="acc-action">
-                                        <div class="">
-                                            <a href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg"
-                                                    width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                                    stroke-linejoin="round" class="feather feather-plus">
-                                                    <line x1="12" y1="5" x2="12" y2="19"></line>
-                                                    <line x1="5" y1="12" x2="19" y2="12"></line>
-                                                </svg></a>
-                                            <a href="javascript:void(0);"><svg xmlns="http://www.w3.org/2000/svg"
-                                                    width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                                    stroke-linejoin="round" class="feather feather-credit-card">
-                                                    <rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect>
-                                                    <line x1="1" y1="10" x2="23" y2="10"></line>
-                                                </svg></a>
+
+                        <div id="basic" class="row layout-spacing layout-top-spacing">
+                        <div class="col-lg-12">
+                            <div class="statbox widget box box-shadow">
+                                <div class="widget-header">
+                                    <div class="row">
+                                        <div class="col-xl-12 col-md-12 col-sm-12 col-12">
+                                            <h4> Blog Content </h4>
                                         </div>
-                                        <a href="javascript:void(0);">Upgrade</a>
+                                    </div>
+                                </div>
+                                <div class="widget-content widget-content-area">
+                                    <div id="editor-container">
+                                        <h1>This is a heading text...</h1>
+                                        <br/>
+                                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui arcu, pellentesque id mattis sed, mattis semper erat. Etiam commodo arcu a mollis consequat. Curabitur pretium auctor tortor, bibendum placerat elit feugiat et. Ut ac turpis nec dui ullamcorper ornare. Vestibulum finibus quis magna at accumsan. Praesent a purus vitae tortor fringilla tempus vel non purus. Suspendisse eleifend nibh porta dolor ullamcorper laoreet. Ut sit amet ipsum vitae lectus pharetra tincidunt. In ipsum quam, iaculis at erat ut, fermentum efficitur ipsum. Nunc odio diam, fringilla in auctor et, scelerisque at lorem. Sed convallis tempor dolor eu dictum. Cras ornare ornare imperdiet. Pellentesque sagittis lacus non libero fringilla faucibus. Aenean ullamcorper enim et metus vestibulum, eu aliquam nunc placerat. Praesent fringilla dolor sit amet leo pulvinar semper. </p>
+                                        <br/>
+                                        <p> Curabitur vel tincidunt dui. Duis vestibulum eget velit sit amet aliquet. Curabitur vitae cursus ex. Aliquam pulvinar vulputate ullamcorper. Maecenas luctus in eros et aliquet. Cras auctor luctus nisl a consectetur. Morbi hendrerit nisi nunc, quis egestas nibh consectetur nec. Aliquam vel lorem enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc placerat, enim quis varius luctus, enim arcu tincidunt purus, in vulputate tortor mi a tortor. Praesent porta ornare fermentum. Praesent sed ligula at ante tempor posuere a at lorem. </p>
+                                        <br/>
+                                        <p> Aliquam diam felis, vehicula ut ipsum eu, consectetur tincidunt ipsum. Vestibulum sed metus ac nisi tincidunt mollis sed non urna. Vivamus lacinia ullamcorper interdum. Sed sed erat vel leo venenatis pretium. Sed aliquet sem nunc, ut iaculis dolor consectetur et. Vivamus ligula sapien, maximus nec pellentesque ut, imperdiet at libero. Vivamus semper nulla lectus, id dapibus nulla convallis id. Quisque elementum lectus ac dui gravida, ut molestie nunc convallis. Pellentesque et odio non dolor convallis commodo sit amet a ante. </p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 layout-spacing">
-                        <div class="widget widget-card-four">
-                            <div class="widget-content">
-                                <div class="w-header">
-                                    <div class="w-info">
-                                        <h6 class="value">Expenses</h6>
-                                    </div>
-                                    <div class="task-action">
-                                        <div class="dropdown">
-                                            <a class="dropdown-toggle" href="#" role="button" id="pendingTask"
-                                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                    class="feather feather-more-horizontal">
-                                                    <circle cx="12" cy="12" r="1"></circle>
-                                                    <circle cx="19" cy="12" r="1"></circle>
-                                                    <circle cx="5" cy="12" r="1"></circle>
-                                                </svg>
-                                            </a>
-
-                                            <div class="dropdown-menu dropdown-menu-right" aria-labelledby="pendingTask"
-                                                style="will-change: transform;">
-                                                <a class="dropdown-item" href="javascript:void(0);">This Week</a>
-                                                <a class="dropdown-item" href="javascript:void(0);">Last Week</a>
-                                                <a class="dropdown-item" href="javascript:void(0);">Last Month</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="w-content">
-
-                                    <div class="w-info">
-                                        <p class="value">$ 45,141 <span>this week</span> <svg
-                                                xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                                stroke-linecap="round" stroke-linejoin="round"
-                                                class="feather feather-trending-up">
-                                                <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
-                                                <polyline points="17 6 23 6 23 12"></polyline>
-                                            </svg></p>
-                                    </div>
-
-                                </div>
-
-                                <div class="w-progress-stats">
-                                    <div class="progress">
-                                        <div class="progress-bar bg-gradient-secondary" role="progressbar"
-                                            style="width: 57%" aria-valuenow="57" aria-valuemin="0" aria-valuemax="100">
-                                        </div>
-                                    </div>
-
-                                    <div class="">
-                                        <div class="w-icon">
-                                            <p>57%</p>
-                                        </div>
-                                    </div>
-
-                                </div>
+                                    <button type="submit" class="btn btn-primary mt-3">Update</button>
+                                </form>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
 
-                    
+                <!-- Content -->
 
-                    
-
-                    <!-- <div class="col-xl-9 col-lg-12 col-md-12 col-sm-12 col-12 layout-spacing">
-                        <div class="widget widget-chart-three">
+                        
+                        <div class="col-xl-12 col-lg-12 col-sm-12  layout-spacing">
+                        <div class="widget-content widget-content-area br-6">
                             <div class="widget-heading">
-                                <div class="">
-                                    <h5 class="">Unique Visitors</h5>
-                                </div>
-
-                                <div class="dropdown ">
-                                    <a class="dropdown-toggle" href="#" role="button" id="uniqueVisitors" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
-                                    </a>
-
-                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="uniqueVisitors">
-                                        <a class="dropdown-item" href="javascript:void(0);">View</a>
-                                        <a class="dropdown-item" href="javascript:void(0);">Update</a>
-                                        <a class="dropdown-item" href="javascript:void(0);">Download</a>
-                                    </div>
-                                </div>
+                                <h4 class="">Blog By User</h4>
                             </div>
-
-                            <div class="widget-content">
-                                <div id="uniqueVisits"></div>
-                            </div>
+                            <table id="html5-extension" class="table style-3 table-hover non-hover" style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th>Id</th>
+                                        <th>User Name</th>
+                                        <th>Blog Title</th>
+                                        <th>Posted Date</th>
+                                        <th class="text-center dt-no-sorting">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>name</td>
+                                        <td>title</td>
+                                        <td>12-12-2022</td>
+                                        <td class="text-center">
+                                              <a href="view_blog.html" class="bs-tooltip" data-toggle="tooltip"
+                                                data-placement="top" title="" data-original-title="View Blog"><i
+                                                data-feather="eye"></i></a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
-                    </div> -->
+                    </div>
 
-                    <!-- <div class="col-xl-3 col-lg-6 col-md-6 col-sm-12 col-12 layout-spacing">
-                        <div class="widget widget-activity-five">
 
+                        <div class="col-xl-12 col-lg-12 col-sm-12  layout-spacing">
+                        <div class="widget-content widget-content-area br-6">
                             <div class="widget-heading">
-                                <h5 class="">Activity Log</h5>
-
-                                <div class="task-action">
-                                    <div class="dropdown">
-                                        <a class="dropdown-toggle" href="#" role="button" id="pendingTask" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
-                                        </a>
-
-                                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="pendingTask" style="will-change: transform;">
-                                            <a class="dropdown-item" href="javascript:void(0);">View All</a>
-                                            <a class="dropdown-item" href="javascript:void(0);">Mark as Read</a>
-                                        </div>
-                                    </div>
-                                </div>
+                                <h4 class="">Blog By Admin</h4>
                             </div>
-
-                            <div class="widget-content">
-
-                                <div class="w-shadow-top"></div>
-
-                                <div class="mt-container mx-auto">
-                                    <div class="timeline-line">
-                                        
-                                        <div class="item-timeline timeline-new">
-                                            <div class="t-dot">
-                                                <div class="t-secondary"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg></div>
-                                            </div>
-                                            <div class="t-content">
-                                                <div class="t-uppercontent">
-                                                    <h5>New project created : <a href="javscript:void(0);"><span>[Cork Admin Template]</span></a></h5>
-                                                </div>
-                                                <p>27 Feb, 2020</p>
-                                            </div>
-                                        </div>
-
-                                        <div class="item-timeline timeline-new">
-                                            <div class="t-dot">
-                                                <div class="t-success"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></div>
-                                            </div>
-                                            <div class="t-content">
-                                                <div class="t-uppercontent">
-                                                    <h5>Mail sent to <a href="javascript:void(0);">HR</a> and <a href="javascript:void(0);">Admin</a></h5>
-                                                </div>
-                                                <p>28 Feb, 2020</p>
-                                            </div>
-                                        </div>
-
-                                        <div class="item-timeline timeline-new">
-                                            <div class="t-dot">
-                                                <div class="t-primary"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg></div>
-                                            </div>
-                                            <div class="t-content">
-                                                <div class="t-uppercontent">
-                                                    <h5>Server Logs Updated</h5>
-                                                </div>
-                                                <p>27 Feb, 2020</p>
-                                            </div>
-                                        </div>
-
-                                        <div class="item-timeline timeline-new">
-                                            <div class="t-dot">
-                                                <div class="t-danger"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-check"><polyline points="20 6 9 17 4 12"></polyline></svg></div>
-                                            </div>
-                                            <div class="t-content">
-                                                <div class="t-uppercontent">
-                                                    <h5>Task Completed : <a href="javscript:void(0);"><span>[Backup Files EOD]</span></a></h5>
-                                                </div>
-                                                <p>01 Mar, 2020</p>
-                                            </div>
-                                        </div>
-
-                                        <div class="item-timeline timeline-new">
-                                            <div class="t-dot">
-                                                <div class="t-warning"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file"><path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline></svg></div>
-                                            </div>
-                                            <div class="t-content">
-                                                <div class="t-uppercontent">
-                                                    <h5>Documents Submitted from <a href="javascript:void(0);">Sara</a></h5>
-                                                    <span class=""></span>
-                                                </div>
-                                                <p>10 Mar, 2020</p>
-                                            </div>
-                                        </div>
-
-                                        <div class="item-timeline timeline-new">
-                                            <div class="t-dot">
-                                                <div class="t-dark"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-server"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6" y2="6"></line><line x1="6" y1="18" x2="6" y2="18"></line></svg></div>
-                                            </div>
-                                            <div class="t-content">
-                                                <div class="t-uppercontent">
-                                                    <h5>Server rebooted successfully</h5>
-                                                    <span class=""></span>
-                                                </div>
-                                                <p>06 Apr, 2020</p>
-                                            </div>
-                                        </div>                                      
-                                    </div>                                    
-                                </div>
-
-                                <div class="w-shadow-bottom"></div>
-                            </div>
+                            <table id="admin-blog" class="table style-3 table-hover non-hover" style="width:100%">
+                                <thead>
+                                    <tr>
+                                        <th>Id</th>
+                                        <th>Blog Title</th>
+                                        <th>Posted Date</th>
+                                        <th class="text-center dt-no-sorting">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>title</td>
+                                        <td>12-12-2022</td>
+                                        <td class="text-center">
+                                              <a href="view_adminblog.html" class="bs-tooltip" data-toggle="tooltip"
+                                                data-placement="top" title="" data-original-title="View Blog"><i
+                                                data-feather="eye"></i></a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
-                    </div> -->
-
-                    <!-- <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-12 layout-spacing">
-                        <div class="widget-four">
-                            <div class="widget-heading">
-                                <h5 class="">Visitors by Browser</h5>
-                            </div>
-                            <div class="widget-content">
-                                <div class="vistorsBrowser">
-                                    <div class="browser-list">
-                                        <div class="w-icon">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chrome"><circle cx="12" cy="12" r="10"></circle><circle cx="12" cy="12" r="4"></circle><line x1="21.17" y1="8" x2="12" y2="8"></line><line x1="3.95" y1="6.06" x2="8.54" y2="14"></line><line x1="10.88" y1="21.94" x2="15.46" y2="14"></line></svg>
-                                        </div>
-                                        <div class="w-browser-details">
-                                            <div class="w-browser-info">
-                                                <h6>Chrome</h6>
-                                                <p class="browser-count">65%</p>
-                                            </div>
-                                            <div class="w-browser-stats">
-                                                <div class="progress">
-                                                    <div class="progress-bar bg-gradient-primary" role="progressbar" style="width: 65%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="browser-list">
-                                        <div class="w-icon">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-compass"><circle cx="12" cy="12" r="10"></circle><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"></polygon></svg>
-                                        </div>
-                                        <div class="w-browser-details">
-                                            
-                                            <div class="w-browser-info">
-                                                <h6>Safari</h6>
-                                                <p class="browser-count">25%</p>
-                                            </div>
-
-                                            <div class="w-browser-stats">
-                                                <div class="progress">
-                                                    <div class="progress-bar bg-gradient-danger" role="progressbar" style="width: 35%" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-
-                                    <div class="browser-list">
-                                        <div class="w-icon">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-globe"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
-                                        </div>
-                                        <div class="w-browser-details">
-                                            
-                                            <div class="w-browser-info">
-                                                <h6>Others</h6>
-                                                <p class="browser-count">15%</p>
-                                            </div>
-
-                                            <div class="w-browser-stats">
-                                                <div class="progress">
-                                                    <div class="progress-bar bg-gradient-warning" role="progressbar" style="width: 15%" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100"></div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-                                    
-                                </div>
-
-                            </div>
-                        </div>
-                    </div> -->
-
-                    <!-- <div class="col-xl-8 col-lg-12 col-md-12 col-sm-12 col-12">
-                        <div class="row widget-statistic">
-                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 layout-spacing">
-                                <div class="widget widget-one_hybrid widget-followers">
-                                    <div class="widget-heading">
-                                        <div class="w-title">
-                                            <div class="w-icon">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
-                                            </div>
-                                            <div class="">
-                                                <p class="w-value">31.6K</p>
-                                                <h5 class="">Followers</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="widget-content">    
-                                        <div class="w-chart">
-                                            <div id="hybrid_followers"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 layout-spacing">
-                                <div class="widget widget-one_hybrid widget-referral">
-                                    <div class="widget-heading">
-                                        <div class="w-title">
-                                            <div class="w-icon">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg>
-                                            </div>
-                                            <div class="">
-                                                <p class="w-value">1,900</p>
-                                                <h5 class="">Referral</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="widget-content">    
-                                        <div class="w-chart">
-                                            <div id="hybrid_followers1"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4 col-12 layout-spacing">
-                                <div class="widget widget-one_hybrid widget-engagement">
-                                    <div class="widget-heading">
-                                        <div class="w-title">
-                                            <div class="w-icon">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-circle"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
-                                            </div>
-                                            <div class="">
-                                                <p class="w-value">18.2%</p>
-                                                <h5 class="">Engagement</h5>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="widget-content">    
-                                        <div class="w-chart">
-                                            <div id="hybrid_followers3"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div> -->
-
+                    </div>
+                
                 </div>
 
                 <div class="footer-wrapper">
@@ -687,6 +357,13 @@
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
     <script src="assets/js/app.js"></script>
+    
+    <!-- BEGIN PAGE LEVEL SCRIPTS -->
+    <script src="assets/js/scrollspyNav.js"></script>
+    <script src="plugins/editors/quill/quill.js"></script>
+    <script src="plugins/editors/quill/custom-quill.js"></script>
+    <!-- END PAGE LEVEL SCRIPTS -->
+
     <script>
         $(document).ready(function () {
             App.init();
@@ -694,21 +371,19 @@
     </script>
     <script src="assets/js/custom.js"></script>
     <!-- END GLOBAL MANDATORY SCRIPTS -->
+    <script src="plugins/font-icons/feather/feather.min.js"></script>
+    <script type="text/javascript">
+        feather.replace();
+    </script>
 
-    <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
-    <script src="plugins/apex/apexcharts.min.js"></script>
-    <script src="assets/js/dashboard/dash_2.js"></script>
     <script src="plugins/table/datatable/datatables.js"></script>
-
-    <!-- BEGIN PAGE LEVEL PLUGINS/CUSTOM SCRIPTS -->
-
     <!-- NOTE TO Use Copy CSV Excel PDF Print Options You Must Include These Files  -->
     <script src="plugins/table/datatable/button-ext/dataTables.buttons.min.js"></script>
     <script src="plugins/table/datatable/button-ext/jszip.min.js"></script>
     <script src="plugins/table/datatable/button-ext/buttons.html5.min.js"></script>
     <script src="plugins/table/datatable/button-ext/buttons.print.min.js"></script>
     <script>
-        $('#approval-pending-ads').DataTable({
+        $('#html5-extension').DataTable({
             "dom": "<'dt--top-section'<'row'<'col-sm-12 col-md-6 d-flex justify-content-md-start justify-content-center'B><'col-sm-12 col-md-6 d-flex justify-content-md-end justify-content-center mt-md-0 mt-3'f>>>" +
                 "<'table-responsive'tr>" +
                 "<'dt--bottom-section d-sm-flex justify-content-sm-between text-center'<'dt--pages-count  mb-sm-0 mb-3'i><'dt--pagination'p>>",
@@ -732,8 +407,9 @@
             "pageLength": 7
         });
     </script>
+
     <script>
-        $('#approval-pending-banners').DataTable({
+        $('#admin-blog').DataTable({
             "dom": "<'dt--top-section'<'row'<'col-sm-12 col-md-6 d-flex justify-content-md-start justify-content-center'B><'col-sm-12 col-md-6 d-flex justify-content-md-end justify-content-center mt-md-0 mt-3'f>>>" +
                 "<'table-responsive'tr>" +
                 "<'dt--bottom-section d-sm-flex justify-content-sm-between text-center'<'dt--pages-count  mb-sm-0 mb-3'i><'dt--pagination'p>>",
@@ -757,12 +433,28 @@
             "pageLength": 7
         });
     </script>
-    <script src="plugins/font-icons/feather/feather.min.js"></script>
-    <script type="text/javascript">
-        feather.replace();
-    </script>
-    <!-- END PAGE LEVEL CUSTOM SCRIPTS -->
 </body>
-</body>
+
+<!-- <script>
+
+var quill = new Quill('#quill-tooltip', {
+    modules: {
+      toolbar: '#toolbar-container'
+    },
+    placeholder: 'Compose an epic...',
+    theme: 'snow'
+});
+
+// Enable all tooltips
+$('[data-toggle="tooltip"]').tooltip();
+
+// Can control programmatically too
+$('.ql-italic').mouseover();
+setTimeout(function() {
+    $('.ql-italic').mouseout();
+}, 2500);
+
+
+</script> -->
 
 </html>
