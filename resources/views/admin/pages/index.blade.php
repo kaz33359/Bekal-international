@@ -16,8 +16,14 @@
     <link href="assets/css/plugins.css" rel="stylesheet" type="text/css" />
     <!-- END GLOBAL MANDATORY STYLES -->
 
+    <link href="https://cdn.quilljs.com/1.0.0/quill.snow.css" rel="stylesheet">
+
     <!--  BEGIN CUSTOM STYLE FILE  -->
     <link href="assets/css/users/user-profile.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/users/account-setting.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="plugins/dropify/dropify.min.css">
+
+
     <!--  END CUSTOM STYLE FILE  -->
 
     <!--  BEGIN CUSTOM STYLE FILE  -->
@@ -195,7 +201,7 @@
                 <div class="page-header">
                     <nav class="breadcrumb-one" aria-label="breadcrumb">
                         <ol class="breadcrumb">
-                            <li class="breadcrumb-item"><a href="javascript:void(0);">Blog Manager</a></li>
+                            <li class="breadcrumb-item active" aria-current="page"><a href="javascript:void(0);">Blog Manager</a></li>
                         </ol>
                     </nav>
                     
@@ -206,27 +212,40 @@
                         <div class="skills layout-spacing ">
                             <div class="widget-content widget-content-area">
                                 <h3 class="">Add Blog Details</h3>
-                                <form>
+                                <form method="POST" action="{{ route('add.blog') }}" id="identifier" enctype="multipart/form-data">
+                                    @csrf
+                                    @if (Session::get('success'))
+                                        <div class="alert alert-success">
+                                            {{ Session::get('success') }}
+                                        </div>
+                                    @endif
+                                    @if (Session::get('fail'))
+                                        <div class="alert alert-danger">
+                                            {{ Session::get('fail') }}
+                                        </div>
+                                    @endif
                                     <div class="form-row mb-4">
                                         <div class="form-group col-md-12">
                                             <label for="exampleFormControlInput1">Author Name</label>
-                                            <input type="text" class="form-control" id="exampleFormControlInput1" value="Author Name">
+                                            <input name="author_name" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Author Name">
                                         </div>
                                         <div class="form-group col-md-12">
                                             <label for="exampleFormControlInput1">Blog Title</label>
-                                            <input type="text" class="form-control" id="exampleFormControlInput1" value="Title">
+                                            <input name="blog_title" type="text" class="form-control" id="exampleFormControlInput1" placeholder="Title">
                                         </div>
                                         <div class="form-group col-md-12">
                                             <label for="exampleFormControlInput1">Blog Summary</label>
-                                            <input type="text" class="form-control" id="exampleFormControlInput1" value="Type Here">
+                                            <input name="blog_summary" type="textarea" class="form-control" id="exampleFormControlInput1" placeholder="Type Here">
                                         </div>
-                                        <div class="form-group col-md-6">
-                                            <label for="exampleFormControlInput1">Blog Id</label>
-                                            <input type="number" class="form-control" id="exampleFormControlInput1" value="1">
+                                        <div class="col-xl-4 col-lg-12 col-md-4">
+                                                <div class="upload mt-4 pr-md-4">
+                                                    <input name="file" type="file" id="input-file-max-fs" class="dropify" data-default-file="assets/img/user-profile.jpeg" data-max-file-size="15M" />
+                                                    <p class="mt-2"><i class="flaticon-cloud-upload mr-1"></i> Upload Picture</p>
+                                                </div>
                                         </div>
-                                        <div class="form-group col-md-6">
+                                        <div class="form-group col-md-8">
                                             <label for="exampleFormControlInput1">Posted Date</label>
-                                            <input type="date" class="form-control" id="exampleFormControlInput1" value="Alan Green">
+                                            <input name="posted_date" type="date" class="form-control" id="exampleFormControlInput1" >
                                         </div>
                                     </div>
 
@@ -241,21 +260,16 @@
                                     </div>
                                 </div>
                                 <div class="widget-content widget-content-area">
-                                    <div id="editor-container">
-                                        <h1>This is a heading text...</h1>
-                                        <br/>
-                                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui arcu, pellentesque id mattis sed, mattis semper erat. Etiam commodo arcu a mollis consequat. Curabitur pretium auctor tortor, bibendum placerat elit feugiat et. Ut ac turpis nec dui ullamcorper ornare. Vestibulum finibus quis magna at accumsan. Praesent a purus vitae tortor fringilla tempus vel non purus. Suspendisse eleifend nibh porta dolor ullamcorper laoreet. Ut sit amet ipsum vitae lectus pharetra tincidunt. In ipsum quam, iaculis at erat ut, fermentum efficitur ipsum. Nunc odio diam, fringilla in auctor et, scelerisque at lorem. Sed convallis tempor dolor eu dictum. Cras ornare ornare imperdiet. Pellentesque sagittis lacus non libero fringilla faucibus. Aenean ullamcorper enim et metus vestibulum, eu aliquam nunc placerat. Praesent fringilla dolor sit amet leo pulvinar semper. </p>
-                                        <br/>
-                                        <p> Curabitur vel tincidunt dui. Duis vestibulum eget velit sit amet aliquet. Curabitur vitae cursus ex. Aliquam pulvinar vulputate ullamcorper. Maecenas luctus in eros et aliquet. Cras auctor luctus nisl a consectetur. Morbi hendrerit nisi nunc, quis egestas nibh consectetur nec. Aliquam vel lorem enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc placerat, enim quis varius luctus, enim arcu tincidunt purus, in vulputate tortor mi a tortor. Praesent porta ornare fermentum. Praesent sed ligula at ante tempor posuere a at lorem. </p>
-                                        <br/>
-                                        <p> Aliquam diam felis, vehicula ut ipsum eu, consectetur tincidunt ipsum. Vestibulum sed metus ac nisi tincidunt mollis sed non urna. Vivamus lacinia ullamcorper interdum. Sed sed erat vel leo venenatis pretium. Sed aliquet sem nunc, ut iaculis dolor consectetur et. Vivamus ligula sapien, maximus nec pellentesque ut, imperdiet at libero. Vivamus semper nulla lectus, id dapibus nulla convallis id. Quisque elementum lectus ac dui gravida, ut molestie nunc convallis. Pellentesque et odio non dolor convallis commodo sit amet a ante. </p>
+                                    <div id="quill-tooltip">  
                                     </div>
+                                    <textarea name="blog_content" style="display:none" id="hiddenArea"></textarea>
+                                    {{-- <input type="hidden" name="blog_content" id="hiddenArea"> --}}
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                                    <button type="submit" class="btn btn-primary mt-3">Update</button>
+                                    <button type="submit" class="btn btn-primary mt-3">Add</button>
                                 </form>
                             </div>
                         </div>
@@ -264,7 +278,7 @@
                 <!-- Content -->
 
                         
-                        <div class="col-xl-12 col-lg-12 col-sm-12  layout-spacing">
+                        {{-- <div class="col-xl-12 col-lg-12 col-sm-12  layout-spacing">
                         <div class="widget-content widget-content-area br-6">
                             <div class="widget-heading">
                                 <h4 class="">Blog By User</h4>
@@ -294,7 +308,7 @@
                                 </tbody>
                             </table>
                         </div>
-                    </div>
+                    </div> --}}
 
 
                         <div class="col-xl-12 col-lg-12 col-sm-12  layout-spacing">
@@ -312,16 +326,33 @@
                                     </tr>
                                 </thead>
                                 <tbody>
+                                    <?php
+                                    $blog=DB::table('blogs')->get(); ?>
+                                    @foreach ($blog as $item)
                                     <tr>
-                                        <td>1</td>
-                                        <td>title</td>
-                                        <td>12-12-2022</td>
+                                        <td>{{ $item->id }}</td>
+                                        <td>{{ $item->blog_title }}</td>
+                                        <td>{{ $item->posted_date }}</td>
                                         <td class="text-center">
-                                              <a href="view_adminblog.html" class="bs-tooltip" data-toggle="tooltip"
+                                              <a href="{{ url('admin/view_adminblog/'.$item->id) }}" class="bs-tooltip" data-toggle="tooltip"
                                                 data-placement="top" title="" data-original-title="View Blog"><i
                                                 data-feather="eye"></i></a>
+                                                <a href="{{ url('admin/blog_delete') }}/{{ $item->id }}" class="bs-tooltip"
+                                                        data-toggle="tooltip" data-placement="top" title=""
+                                                        data-original-title="Delete session"><svg
+                                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                            stroke-width="2" stroke-linecap="round"
+                                                            stroke-linejoin="round"
+                                                            class="feather feather-trash p-1 br-6 mb-1">
+                                                            <polyline points="3 6 5 6 21 6"></polyline>
+                                                            <path
+                                                                d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2">
+                                                            </path>
+                                                        </svg></a>
                                         </td>
                                     </tr>
+                                    @endforeach
                                 </tbody>
                             </table>
                         </div>
@@ -435,26 +466,49 @@
     </script>
 </body>
 
-<!-- <script>
+ <script>
+
+// var quill = new Quill('#quill-tooltip', {
+//     modules: {
+//       toolbar: '#toolbar-container'
+//     },
+//     placeholder: 'Compose an epic...',
+//     theme: 'snow'
+// });
+// $("#identifier").on("submit",function() {
+//   $("#hiddenArea").val($("#editor-container").html());
+// })
+
+// // Enable all tooltips
+// $('[data-toggle="tooltip"]').tooltip();
+
+// // Can control programmatically too
+// $('.ql-italic').mouseover();
+// setTimeout(function() {
+//     $('.ql-italic').mouseout();
+// }, 2500);
 
 var quill = new Quill('#quill-tooltip', {
-    modules: {
-      toolbar: '#toolbar-container'
-    },
-    placeholder: 'Compose an epic...',
-    theme: 'snow'
+  modules: {
+    toolbar: [
+      [{ header: [1, 2, false] }],
+      ['bold', 'italic', 'underline'],
+      ['image', ]
+    ]
+  },
+  placeholder: 'Compose an epic...',
+  theme: 'snow'  // or 'bubble'
 });
-
-// Enable all tooltips
-$('[data-toggle="tooltip"]').tooltip();
-
-// Can control programmatically too
-$('.ql-italic').mouseover();
-setTimeout(function() {
-    $('.ql-italic').mouseout();
-}, 2500);
+$("#identifier").on("submit",function() {
+  $("#hiddenArea").val($("#quill-tooltip .ql-editor").html());
+})
 
 
-</script> -->
+</script>
+{{-- <script src="https://cdn.quilljs.com/1.0.0/quill.js"></script> --}}
+    <script src="assets/js/users/account-settings.js"></script>
+    <script src="plugins/dropify/dropify.min.js"></script>
+
+
 
 </html>

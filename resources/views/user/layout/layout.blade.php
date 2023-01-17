@@ -32,7 +32,7 @@
 	<meta property="twitter:image" content="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"/>
 
 		<!-- favicon -->
-		<link rel="shortcut icon" href="assets/img/bekal_logo/logo.png">
+		<link rel="shortcut icon" href="{{ asset('user/assets/img/bekal_logo/logo.png') }}">
 		<link rel="apple-touch-icon" href="assets/images/apple-touch-icon-57x57-white.png">
 		<link rel="apple-touch-icon" sizes="72x72" href="assets/images/apple-touch-icon-72x72-white.png">
 		<link rel="apple-touch-icon" sizes="114x114" href="assets/images/apple-touch-icon-114x114-white.png">
@@ -156,15 +156,7 @@
     </footer>
     <!-- jQuery -->
 
-    <script>
-      $(document).ready(function(){
-      $('.tab-pane').each(function(tab,index){
-      if(index==0){
-      tab.addClass('active');
-         }
-       });
-     });
-    </script>
+    
     <script src="{{ asset('user/assets/js/jquery-3.6.0.min.js')}}"></script>
     <script src="{{ asset('user/assets/js/jquery-migrate-3.0.0.min.js')}}"></script>
     <script src="{{ asset('user/assets/js/modernizr-2.6.2.min.js')}}"></script>

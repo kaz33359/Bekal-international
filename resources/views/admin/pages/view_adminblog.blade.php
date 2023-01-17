@@ -1,37 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- Mirrored from designreset.com/cork/ltr/demo8/table_dt_basic.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Mar 2021 08:58:56 GMT -->
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no">
-    <title>IGNITE - View Admin Blog</title>
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico"/>
-    <link href="assets/css/loader.css" rel="stylesheet" type="text/css" />
-    <script src="assets/js/loader.js"></script>
+    <title>BEKAL INTERNATIONAL - View Admin Blog</title>
+    <link rel="icon" type="image/x-icon" href="{{ asset('admin/assets/img/bekal/logo.png')}}"/>
+    <link href="{{ asset('admin/assets/css/loader.css')}}" rel="stylesheet" type="text/css" />
+    <script src="{{ asset('admin/assets/js/loader.js')}}"></script>
     <!-- BEGIN GLOBAL MANDATORY STYLES -->
     <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700&amp;display=swap" rel="stylesheet">
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <link href="assets/css/plugins.css" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('admin/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('admin/assets/css/plugins.css')}}" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="{{ asset('admin/plugins/editors/quill/quill.snow.css')}}">
+
     <!-- END GLOBAL MANDATORY STYLES -->
 
    <!-- BEGIN PAGE LEVEL CUSTOM STYLES -->
-    <link rel="stylesheet" type="text/css" href="plugins/table/datatable/datatables.css">
-    <link rel="stylesheet" type="text/css" href="plugins/table/datatable/custom_dt_html5.css">
-    <link rel="stylesheet" type="text/css" href="plugins/table/datatable/datatables.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/forms/theme-checkbox-radio.css">
-    <link rel="stylesheet" type="text/css" href="plugins/table/datatable/dt-global_style.css">
-    <link rel="stylesheet" type="text/css" href="plugins/table/datatable/custom_dt_custom.css">
+    <link rel="stylesheet" type="text/css" href="{{ asset('admin/plugins/table/datatable/datatables.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('admin/plugins/table/datatable/custom_dt_html5.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('admin/plugins/table/datatable/datatables.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('admin/assets/css/forms/theme-checkbox-radio.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('admin/plugins/table/datatable/dt-global_style.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('admin/plugins/table/datatable/custom_dt_custom.css')}}">
 
     <!-- END PAGE LEVEL CUSTOM STYLES -->
 
 </head>
 <body class="alt-menu sidebar-noneoverflow">
     <!-- BEGIN LOADER -->
-    <div id="load_screen"> <div class="loader"> <div class="loader-content">
-        <div class="spinner-grow align-self-center"></div>
-    </div></div></div>
+    <div id="load_screen">
+        <div class="loader">
+            <div class="loader-content">
+                <div class="spinner-grow align-self-center"></div>
+            </div>
+        </div>
+    </div>
     <!--  END LOADER -->
 
     <!--  BEGIN NAVBAR  -->
@@ -48,8 +53,8 @@
                 </svg></a>
 
             <div class="nav-logo align-self-center">
-                <a class="navbar-brand" href="index.html"> <span
-                        class="navbar-brand-name">Ignite</span></a>
+                <a class="navbar-brand" href="index.html"> <img alt="logo" src="{{ asset('admin/assets/img/bekal/logo dark.png')}}"> <span
+                        class="navbar-brand-name"></span></a>
             </div>
 
             <ul class="navbar-item flex-row mr-auto">
@@ -64,10 +69,10 @@
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         <div class="media">
                             <div class="media-body align-self-center">
-                                <h6> Ignite</h6>
+                                <h6> Bekal International</h6>
                                 <p>Admin</p>
                             </div>
-                            <img src="assets/img/profile-7.jpg" class="img-fluid" alt="admin-profile">
+                            <img src="{{ asset('admin/assets/img/bekal/logo.png')}}" class="img-fluid" alt="admin-profile">
                             <span class="badge badge-success"></span>
                         </div>
                     </a>
@@ -101,7 +106,7 @@
                             </a>
                         </div> -->
                         <div class="dropdown-item">
-                            <a href="auth_login.html">
+                            <a href="{{ url('admin/logout') }}">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" class="feather feather-log-out">
@@ -130,53 +135,15 @@
                 <ul class="navbar-nav theme-brand flex-row  text-center">
                     <li class="nav-item theme-logo">
                         <a href="index.html">
-                            <img src="assets/img/logo.svg" class="navbar-logo" alt="logo">
+                            <img src="assets/img/bekal/logo dark.png" class="navbar-logo" alt="logo">
                         </a>
                     </li>
                     <li class="nav-item theme-text">
-                        <a href="index.html" class="nav-link"> Ignite </a>
+                        <a href="index.html" class="nav-link"> Bekal International </a>
                     </li>
                 </ul>
 
                 <ul class="list-unstyled menu-categories" id="topAccordion">
-
-                    <li class="menu single-menu">
-                        <a href="index.html">
-                            <div class="">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="feather feather-home">
-                                    <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-                                    <polyline points="9 22 9 12 15 12 15 22"></polyline>
-                                </svg>
-                                <span>Dashboard</span>
-                            </div>
-                            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg> -->
-                        </a>
-                    </li>
-
-                    <li class="menu single-menu">
-                        <a href="about_us.html">
-                            <div class="">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="feather feather-cpu">
-                                    <rect x="4" y="4" width="16" height="16" rx="2" ry="2"></rect>
-                                    <rect x="9" y="9" width="6" height="6"></rect>
-                                    <line x1="9" y1="1" x2="9" y2="4"></line>
-                                    <line x1="15" y1="1" x2="15" y2="4"></line>
-                                    <line x1="9" y1="20" x2="9" y2="23"></line>
-                                    <line x1="15" y1="20" x2="15" y2="23"></line>
-                                    <line x1="20" y1="9" x2="23" y2="9"></line>
-                                    <line x1="20" y1="14" x2="23" y2="14"></line>
-                                    <line x1="1" y1="9" x2="4" y2="9"></line>
-                                    <line x1="1" y1="14" x2="4" y2="14"></line>
-                                </svg>
-                                <span>About Us</span>
-                            </div>
-                            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg> -->
-                        </a>
-                    </li>
 
                     <li class="menu single-menu active">
                         <a href="blog.html">
@@ -197,23 +164,7 @@
                     </li>
 
                     <li class="menu single-menu">
-                        <a href="ignite.html">
-                            <div class="">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="feather feather-clipboard">
-                                    <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2">
-                                    </path>
-                                    <rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect>
-                                </svg>
-                                <span>Programs</span>
-                            </div>
-                            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"></polyline></svg> -->
-                        </a>
-                    </li>
-
-                    <li class="menu single-menu">
-                        <a href="enquiry.html">
+                        <a href="{{ url('admin/enquiry') }}">
                             <div class="">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -251,19 +202,21 @@
                         <div class="skills layout-spacing ">
                             <div class="widget-content widget-content-area">
                                 <h3 class="">Admin Blog Details</h3>
-                                <form>
+                                <form action="{{ url('update_blog/'.$blog->id) }}" method="POST" enctype="multipart/form-data" name="mainform">
+                                    @csrf
+                                    @method('PUT')
                                     <div class="form-row mb-4">
                                         <div class="form-group col-md-12">
                                             <label for="exampleFormControlInput1">Author Name</label>
-                                            <input type="text" class="form-control" id="exampleFormControlInput1" value="Author Name">
+                                            <input name="author_name" type="text" class="form-control" id="exampleFormControlInput1" value="{{ $blog->author_name }}">
                                         </div>
                                         <div class="form-group col-md-12">
                                             <label for="exampleFormControlInput1">Blog Title</label>
-                                            <input type="text" class="form-control" id="exampleFormControlInput1" value="Title">
+                                            <input name="blog_title" type="text" class="form-control" id="exampleFormControlInput1" value="{{ $blog->blog_title }}">
                                         </div>
                                         <div class="form-group col-md-12">
                                             <label for="exampleFormControlInput1">Blog Summary</label>
-                                            <input type="text" class="form-control" id="exampleFormControlInput1" value="Type Here">
+                                            <input name="blog_summary" type="text" class="form-control" id="exampleFormControlInput1" value="{{ $blog->blog_summary }}">
                                         </div>
                                     </div>
 
@@ -278,21 +231,18 @@
                                     </div>
                                 </div>
                                 <div class="widget-content widget-content-area">
-                                    <div id="editor-container">
-                                        <h1>This is a heading text...</h1>
-                                        <br/>
-                                        <p id="edit"> <b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dui arcu, pellentesque id mattis sed, mattis semper erat. Etiam commodo arcu a mollis consequat. Curabitur pretium auctor tortor, bibendum placerat elit feugiat et. Ut ac turpis nec dui ullamcorper ornare. Vestibulum finibus quis magna at accumsan. Praesent a purus vitae tortor fringilla tempus vel non purus. Suspendisse eleifend nibh porta dolor ullamcorper laoreet. Ut sit amet ipsum vitae lectus pharetra tincidunt. In ipsum quam, iaculis at erat ut, fermentum efficitur ipsum. Nunc odio diam, fringilla in auctor et, scelerisque at lorem. Sed convallis tempor dolor eu dictum. Cras ornare ornare imperdiet. Pellentesque sagittis lacus non libero fringilla faucibus. Aenean ullamcorper enim et metus vestibulum, eu aliquam nunc placerat. Praesent fringilla dolor sit amet leo pulvinar semper.</b> </p>
-                                        <br>
-                                        <button id="edit-button" type="submit" class="btn btn-primary mt-3">Edit</button>
-                                        <button type="submit" class="btn btn-success mt-3">Done</button>
-                                    </div>
+                                    <div id="quill-tooltip">
+                                    </div> 
+                                    <p> {!! isset($blog->blog_content) ? $blog->blog_content : '' !!} </p>
+                                    <textarea name="blog_content" style="display:none" id="hiddenArea">{{ isset($blog->blog_content) ? $blog->blog_content : ''}} </textarea>
+                                    {{-- <input type="hidden" name="blog_content" id="hiddenArea"> --}}
                                 </div>
                             </div>
                         </div>
                     </div>
 
                                     
-                                    <button type="submit" class="btn btn-danger mt-3">Delete</button>
+                                    <button type="submit" class="btn btn-success mt-3">Update</button>
                                 </form>
                             </div>
                         </div>
@@ -318,28 +268,29 @@
     
     
     <!-- BEGIN GLOBAL MANDATORY SCRIPTS -->
-    <script src="assets/js/libs/jquery-3.1.1.min.js"></script>
-    
-    <script src="bootstrap/js/popper.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="plugins/perfect-scrollbar/perfect-scrollbar.min.js"></script>
-    <script src="assets/js/app.js"></script>
+    <script src="{{ asset('admin/assets/js/libs/jquery-3.1.1.min.js')}}"></script>
+    <script src="{{ asset('admin/bootstrap/js/popper.min.js')}}"></script>
+    <script src="{{ asset('admin/bootstrap/js/bootstrap.min.js')}}"></script>
+    <script src="{{ asset('admin/plugins/perfect-scrollbar/perfect-scrollbar.min.js')}}"></script>
+    <script src="{{ asset('admin/assets/js/app.js')}}"></script>
     
     <script>
         $(document).ready(function() {
             App.init();
         });
     </script>
-    <script src="assets/js/custom.js"></script>
+    <script src="{{ asset('admin/assets/js/custom.js')}}"></script>
+    <script src="{{ asset('admin/plugins/editors/quill/quill.js')}}"></script>
+    <script src="{{ asset('admin/plugins/editors/quill/custom-quill.js')}}"></script>
     <!-- END GLOBAL MANDATORY SCRIPTS -->
 
     <!-- BEGIN PAGE LEVEL CUSTOM SCRIPTS -->
-    <script src="plugins/table/datatable/datatables.js"></script>
+    <script src="{{ asset('admin/plugins/table/datatable/datatables.js')}}"></script>
     <!-- NOTE TO Use Copy CSV Excel PDF Print Options You Must Include These Files  -->
-    <script src="plugins/table/datatable/button-ext/dataTables.buttons.min.js"></script>
-    <script src="plugins/table/datatable/button-ext/jszip.min.js"></script>    
-    <script src="plugins/table/datatable/button-ext/buttons.html5.min.js"></script>
-    <script src="plugins/table/datatable/button-ext/buttons.print.min.js"></script>
+    <script src="{{ asset('admin/plugins/table/datatable/button-ext/dataTables.buttons.min.js')}}"></script>
+    <script src="{{ asset('admin/plugins/table/datatable/button-ext/jszip.min.js')}}"></script>    
+    <script src="{{ asset('admin/plugins/table/datatable/button-ext/buttons.html5.min.js')}}"></script>
+    <script src="{{ asset('admin/plugins/table/datatable/button-ext/buttons.print.min.js')}}"></script>
     <script>
         $('#html5-extension').DataTable( {
             "dom": "<'dt--top-section'<'row'<'col-sm-12 col-md-6 d-flex justify-content-md-start justify-content-center'B><'col-sm-12 col-md-6 d-flex justify-content-md-end justify-content-center mt-md-0 mt-3'f>>>" +
@@ -365,14 +316,64 @@
             "pageLength": 7 
         } );
     </script>
+
+    <script>
+
+// var quill = new Quill('#quill-tooltip', {
+//     modules: {
+//       toolbar: '#toolbar-container'
+//     },
+//     placeholder: 'Compose an epic...',
+//     theme: 'snow'
+// });
+// $("#identifier").on("submit",function() {
+//   $("#hiddenArea").val($("#editor-container").html());
+// })
+
+// // Enable all tooltips
+// $('[data-toggle="tooltip"]').tooltip();
+
+// // Can control programmatically too
+// $('.ql-italic').mouseover();
+// setTimeout(function() {
+//     $('.ql-italic').mouseout();
+// }, 2500);
+// const editorContent = '<%=blog_content%>'
+// const editor = document.getElementById('quill-tooltip');
+// const hiddenInput = document.getElementById('blog_content');
+// const form = document.forms.mainform;
+
+
+var quill = new Quill('#quill-tooltip', {
+  modules: {
+    toolbar: [
+      [{ header: [1, 2, false] }],
+      ['bold', 'italic', 'underline'],
+      ['image', ]
+    ]
+  },
+  placeholder: 'Compose an epic...',
+  theme: 'snow'  // or 'bubble'
+});
+$("#identifier").on("submit",function() {
+$("#hiddenArea").val($("#quill-tooltip .ql-editor").html());
+})
+form.addEventListener('submit', function(e){
+        e.preventDefault();
+        hiddenInput.value = editor.firstChild.innerHTML
+        this.submit();
+      });
+
+
+</script>
+
     <!-- END PAGE LEVEL CUSTOM SCRIPTS -->
 
-    <script src="plugins/font-icons/feather/feather.min.js"></script>
+    <script src="{{ asset('admin/plugins/font-icons/feather/feather.min.js')}}"></script>
     <script type="text/javascript">
         feather.replace();
     </script>
     <!-- END PAGE LEVEL SCRIPTS -->
 </body>
 
-<!-- Mirrored from designreset.com/cork/ltr/demo8/table_dt_basic.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 27 Mar 2021 08:58:56 GMT -->
 </html>

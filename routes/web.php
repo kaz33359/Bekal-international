@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AdminController;
+use App\Http\Controllers\BlogController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Middleware\AdminAuth;
 
@@ -25,7 +26,6 @@ Route::group(['middleware' => ['AdminAuth']], function () {
 
 
     Route::get('admin/index', [AdminController::class, 'dashboard']);
-    Route::get('admin/blog', [AdminController::class, 'blog']);
     Route::get('admin/enquiry', [AdminController::class, 'enquiry']);
     Route::get('admin/view_blog', [AdminController::class, 'view_blog']);
     Route::post('admin/adminBlog', [BlogController::class, 'add_blog'])->name('add.blog');
@@ -39,6 +39,8 @@ Route::get('admin/hash', [AdminController::class, 'hashp']);
 //END ADMIN PANEL//
 
 // USER SIDE //
+Route::get('user/blogDetails/{id}', [BlogController::class, 'sb'])->name('s.b');
+
 Route::get('/', function () {
     return view('user/pages/index');
 });
@@ -56,4 +58,25 @@ Route::get('/gallery', function () {
 });
 Route::get('/contact', function () {
     return view('user/pages/contact');
+});
+Route::get('/standardRoom', function () {
+    return view('user/pages/standard');
+});
+Route::get('/superiorRoom', function () {
+    return view('user/pages/superior');
+});
+Route::get('/deluxRoom', function () {
+    return view('user/pages/delux');
+});
+Route::get('/executive_kingRoom', function () {
+    return view('user/pages/executiveking');
+});
+Route::get('/executive_twinRoom', function () {
+    return view('user/pages/executiveTwin');
+});
+Route::get('/suite_kingRoom', function () {
+    return view('user/pages/suiteKing');
+});
+Route::get('/suite_twinRoom', function () {
+    return view('user/pages/suiteTwin');
 });

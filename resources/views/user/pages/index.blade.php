@@ -95,7 +95,7 @@
                         <div class="position-re o-hidden"> <img src="{{ asset('user/assets/img/bekal/Bekal Pics/Standard Non AC/3.JPG')}}" alt=""> </div> <span class="category"><a href="contact.html">Book</a></span>
                         <div class="con">
                             <h6><a href="#">150$ / Night</a></h6>
-                            <h5><a href="standardRoom.html">Standard Non AC Room</a> </h5>
+                            <h5><a href="{{ url('/standardRoom') }}">Standard Non AC Room</a> </h5>
                             <div class="line"></div>
                             <div class="row facilities">
                                 <div class="col col-md-7">
@@ -107,7 +107,7 @@
                                     </ul>
                                 </div>
                                 <div class="col col-md-5 text-right">
-                                    <div class="permalink"><a href="standardRoom.html">Details <i class="ti-arrow-right"></i></a></div>
+                                    <div class="permalink"><a href="{{ url('/standardRoom') }}">Details <i class="ti-arrow-right"></i></a></div>
                                 </div>
                             </div>
                         </div>
@@ -118,7 +118,7 @@
                         <div class="position-re o-hidden"> <img src="{{ asset('user/assets/img/bekal/Bekal Pics/Standard AC/7.JPG')}}" alt=""> </div> <span class="category"><a href="contact.html">Book</a></span>
                         <div class="con">
                             <h6><a href="#">200$ / Night</a></h6>
-                            <h5><a href="superiorRoom.html">Superior AC Room</a></h5>
+                            <h5><a href="{{ url('/superiorRoom') }}">Superior AC Room</a></h5>
                             <div class="line"></div>
                             <div class="row facilities">
                                 <div class="col col-md-7">
@@ -130,7 +130,7 @@
                                     </ul>
                                 </div>
                                 <div class="col col-md-5 text-right">
-                                    <div class="permalink"><a href="superiorRoom.html">Details <i class="ti-arrow-right"></i></a></div>
+                                    <div class="permalink"><a href="{{ url('/superiorRoom') }}">Details <i class="ti-arrow-right"></i></a></div>
                                 </div>
                             </div>
                         </div>
@@ -141,7 +141,7 @@
                         <div class="position-re o-hidden"> <img src="{{ asset('user/assets/img/bekal/Bekal Pics/Deluxe Room/4.JPG')}}" alt=""> </div> <span class="category"><a href="contact.html">Book</a></span>
                         <div class="con">
                             <h6><a href="#">250$ / Night</a></h6>
-                            <h5><a href="deluxRoom.html">Deluxe Room</a></h5>
+                            <h5><a href="{{ url('/deluxRoom') }}">Deluxe Room</a></h5>
                             <div class="line"></div>
                             <div class="row facilities">
                                 <div class="col col-md-7">
@@ -153,7 +153,7 @@
                                     </ul>
                                 </div>
                                 <div class="col col-md-5 text-right">
-                                    <div class="permalink"><a href="deluxRoom.html">Details <i class="ti-arrow-right"></i></a></div>
+                                    <div class="permalink"><a href="{{ url('/deluxRoom') }}">Details <i class="ti-arrow-right"></i></a></div>
                                 </div>
                             </div>
                         </div>
@@ -164,7 +164,7 @@
                         <div class="position-re o-hidden"> <img src="{{ asset('user/assets/img/bekal/Bekal Pics/Exec King Room/10.JPG')}}" alt=""> </div> <span class="category"><a href="contact.html">Book</a></span>
                         <div class="con">
                             <h6><a href="#">300$ / Night</a></h6>
-                            <h5><a href="executiveKing.html">Executive King Room</a></h5>
+                            <h5><a href="{{ url('/executive_kingRoom') }}">Executive King Room</a></h5>
                             <div class="line"></div>
                             <div class="row facilities">
                                 <div class="col col-md-7">
@@ -176,7 +176,7 @@
                                     </ul>
                                 </div>
                                 <div class="col col-md-5 text-right">
-                                    <div class="permalink"><a href="executiveKing.html">Details <i class="ti-arrow-right"></i></a></div>
+                                    <div class="permalink"><a href="{{ url('/executive_kingRoom') }}">Details <i class="ti-arrow-right"></i></a></div>
                                 </div>
                             </div>
                         </div>
@@ -187,7 +187,7 @@
                         <div class="position-re o-hidden"> <img src="{{ asset('user/assets/img/bekal/Bekal Pics/Exec Twin Room/8.JPG')}}" alt=""> </div> <span class="category"><a href="contact.html">Book</a></span>
                         <div class="con">
                             <h6><a href="#">150$ / Night</a></h6>
-                            <h5><a href="executiveTwin.html">Executive Twin Room</a></h5>
+                            <h5><a href="{{ url('/executive_twinRoom') }}">Executive Twin Room</a></h5>
                             <div class="line"></div>
                             <div class="row facilities">
                                 <div class="col col-md-7">
@@ -199,7 +199,7 @@
                                     </ul>
                                 </div>
                                 <div class="col col-md-5 text-right">
-                                    <div class="permalink"><a href="executiveTwin.html">Details <i class="ti-arrow-right"></i></a></div>
+                                    <div class="permalink"><a href="{{ url('/executive_twinRoom') }}">Details <i class="ti-arrow-right"></i></a></div>
                                 </div>
                             </div>
                         </div>
@@ -210,7 +210,7 @@
                         <div class="position-re o-hidden"> <img src="{{ asset('user/assets/img/bekal/Bekal Pics/Exec Suite/7.jpg')}}" alt=""> </div> <span class="category"><a href="contact.html">Book</a></span>
                         <div class="con">
                             <h6><a href="#">300$ / Night</a></h6>
-                            <h5><a href="suiteKing.html">Suite King Room</a></h5>
+                            <h5><a href="{{ url('/suite_kingRoom') }}">Suite King Room</a></h5>
                             <div class="line"></div>
                             <div class="row facilities">
                                 <div class="col col-md-7">
@@ -222,7 +222,7 @@
                                     </ul>
                                 </div>
                                 <div class="col col-md-5 text-right">
-                                    <div class="permalink"><a href="suiteKing.html">Details <i class="ti-arrow-right"></i></a></div>
+                                    <div class="permalink"><a href="{{ url('/suite_kingRoom') }}">Details <i class="ti-arrow-right"></i></a></div>
                                 </div>
                             </div>
                         </div>
@@ -233,7 +233,7 @@
                         <div class="position-re o-hidden"> <img src="{{ asset('user/assets/img/bekal/Bekal Pics/Suite Twin/5.jpeg')}}" alt=""> </div> <span class="category"><a href="contact.html">Book</a></span>
                         <div class="con">
                             <h6><a href="#">150$ / Night</a></h6>
-                            <h5><a href="suiteTwin.html">Suite Twin Room</a></h5>
+                            <h5><a href="{{ url('/suite_twinRoom') }}">Suite Twin Room</a></h5>
                             <div class="line"></div>
                             <div class="row facilities">
                                 <div class="col col-md-7">
@@ -245,7 +245,7 @@
                                     </ul>
                                 </div>
                                 <div class="col col-md-5 text-right">
-                                    <div class="permalink"><a href="suiteTwin.html">Details <i class="ti-arrow-right"></i></a></div>
+                                    <div class="permalink"><a href="{{ url('/suite_twinRoom') }}">Details <i class="ti-arrow-right"></i></a></div>
                                 </div>
                             </div>
                         </div>
