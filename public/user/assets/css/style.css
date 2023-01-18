@@ -5215,7 +5215,7 @@ select {
 [data-overlay-dark="3"]:before,
 [data-overlay-darkgray="3"]:before,
 [data-overlay-light="3"]:before {
-  opacity: 0.3;
+  opacity: 0.6;
 }
 [data-overlay-dark="4"]:before,
 [data-overlay-darkgray="4"]:before,

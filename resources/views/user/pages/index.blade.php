@@ -425,31 +425,41 @@
                             <div class="owl-carousel owl-theme">
                                 <div class="item">
                                     <span class="quote"><img src="{{ asset('user/assets/img/quot.png')}}" alt=""></span>
-                                    <p>Hotel dapibus asue metus the nec feusiate eraten miss hendreri net ve ante the lemon sanleo nectan feugiat erat hendrerit necuis ve ante otel inilla duiman at finibus viverra neca the sene on satien the miss drana inc fermen norttito sit space, mus nellentesque habitan.</p>
+                                    <p>Perfect stay, well maintained hotel , they have focused very well on their aesthetic appearance, and have maintained the same to its true beauty. The staff were very polite and humble. Exceptional room service with daily housekeeping. The rooms were spacious and huge with an amazing city view. Also the sunset from the room was really beautiful. Overall a great and memorable experience. Truly great hospitality and amazing atmosphere.Customer relations and customer service are good.Good accessibility to main areas and very good parking facilities.</p>
                                     <div class="info">
-                                        <div class="author-img"> <img src="{{ asset('user/assets/img/team/4.jpg')}}" alt=""> </div>
+                                        <div class="author-img"> <img src="{{ asset('user/assets/img/bekal/testimonial/malavika.png')}}" alt=""> </div>
                                         <div class="cont"> <span><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i></span>
-                                            <h6>Emily Brown</h6> <span>Guest review</span>
+                                            <h6>Malavika Sreenath</h6> <span>Guest review</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <span class="quote"><img src="assets/img/quot.png" alt=""></span>
-                                    <p>Hotel dapibus asue metus the nec feusiate eraten miss hendreri net ve ante the lemon sanleo nectan feugiat erat hendrerit necuis ve ante otel inilla duiman at finibus viverra neca the sene on satien the miss drana inc fermen norttito sit space, mus nellentesque habitan.</p>
+                                    <span class="quote"><img src="{{ asset('user/assets/img/quot.png')}}" alt=""></span>
+                                    <p>Had a wonderful experience staying here for a few days. Decent facilities. The rooms are well maintained and beautifully designed after the recent renovation. The staffs are also very friendly, polite and professional.A shout out to every staff who made my stay a delightful one from the baggage facilitators, front desk, room service and house keeping. Thank you for the stay. Looking forward to come back again.I would definitely recommend this place to anyone who is travelling to Kanhangad.</p>
                                     <div class="info">
-                                        <div class="author-img"> <img src="assets/img/team/1.jpg" alt=""> </div>
+                                        <div class="author-img"> <img src="{{ asset('user/assets/img/bekal/testimonial/tom.png')}}" alt=""> </div>
                                         <div class="cont"> <span><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i></span>
-                                            <h6>Nolan White</h6> <span>Guest review</span>
+                                            <h6>Tom Bruce</h6> <span>Guest review</span>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="item">
-                                    <span class="quote"><img src="assets/img/quot.png" alt=""></span>
-                                    <p>Hotel dapibus asue metus the nec feusiate eraten miss hendreri net ve ante the lemon sanleo nectan feugiat erat hendrerit necuis ve ante otel inilla duiman at finibus viverra neca the sene on satien the miss drana inc fermen norttito sit space, mus nellentesque habitan.</p>
+                                    <span class="quote"><img src="{{ asset('user/assets/img/quot.png')}}" alt=""></span>
+                                    <p>Completely refurbished hotel. value for money. Rooms are spacious interior is contemporary with a touch of elegance. From lobby to corridors to rooms , everything is accentuated with right kind of material. Lots of space , air and light into room. People are very well mannered and your needs are taken care.</p>
                                     <div class="info">
-                                        <div class="author-img"> <img src="assets/img/team/5.jpg" alt=""> </div>
+                                        <div class="author-img"> <img src="{{ asset('user/assets/img/bekal/testimonial/anoop.png')}}" alt=""> </div>
                                         <div class="cont"> <span><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i></span>
-                                            <h6>Olivia Martin</h6> <span>Guest review</span>
+                                            <h6>K.N. Anoop</h6> <span>Guest review</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <span class="quote"><img src="{{ asset('user/assets/img/quot.png')}}" alt=""></span>
+                                    <p>The hotel is renovated , clean ,modern.All expected amenities provided...the TV had YouTube which is always an added plus..But the best thing about the hotel is thd staffs behavior...expected manager Mohammed Abbas....he made the place feel like home ...thank you sir if you happen to read this review...from me n my daughter.</p>
+                                    <div class="info">
+                                        <div class="author-img"> <img src="{{ asset('user/assets/img/bekal/testimonial/sreekala.png')}}" alt=""> </div>
+                                        <div class="cont"> <span><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i><i class="star-rating"></i></span>
+                                            <h6>Sreekala Radhakrishnan</h6> <span>Guest review</span>
                                         </div>
                                     </div>
                                 </div>
