@@ -9,7 +9,7 @@
   <!-- Primary Meta Tags -->
 	<title>BEKAL INTERNATIONAL - @yield('pagetitle')</title>
 	<meta name="title" content="BEKAL INTERNATIONAL">
-	<meta name="description" content="We are more than just a marketing agency. Our work involves both analysis and creation. We communicate, design, develop and publish… To influence, experience, move and encourage . We understand that there’s more to marketing Than making you look good, we work to escalate your growth in business. As your strategic partner, we devise an expert plan to market your brand to gain maximum exposure.">
+	<meta name="description" content="Hotel Bekal International">
 
 	<meta name="author" content="BEKAL INTERNATIONAL">
 
@@ -17,18 +17,16 @@
 	<meta property="og:type" content="website">
 	<meta property="og:url" content="https://thedaxads.com/">
 	<meta property="og:title" content="BEKAL INTERNATIONAL">
-	<meta property="og:description" content="We are more than just a marketing agency. Our work involves both analysis and creation. We communicate, design, develop and publish… To influence, experience, move and encourage . We understand that there’s more to marketing Than making you look good, we work to escalate your growth in business. As your strategic partner, we devise an expert plan to market your brand to gain maximum exposure.
-			We also over-deliver our customer expectations with our versatile style of doing work with innovative working methodology and embedding teamed and brilliant execution results in high-quality advertising with standards difficult to rise up to.">
-	<meta property="og:image" content="assets/images/image.jpeg"/>
+	<meta property="og:description" content="Hotel Bekal International">
+	<meta property="og:image" content="{{ asset('user/assets/img/bekal_logo/logo.png') }}"/>
 	<meta property="og:image" content="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"/>
 
 	<!-- Twitter -->
 	<meta property="twitter:card" content="summary_large_image">
 	<meta property="twitter:url" content="https://thedaxads.com/">
 	<meta property="twitter:title" content="BEKAL INTERNATIONAL">
-	<meta property="twitter:description" content="We are more than just a marketing agency. Our work involves both analysis and creation. We communicate, design, develop and publish… To influence, experience, move and encourage . We understand that there’s more to marketing Than making you look good, we work to escalate your growth in business. As your strategic partner, we devise an expert plan to market your brand to gain maximum exposure.
-			We also over-deliver our customer expectations with our versatile style of doing work with innovative working methodology and embedding teamed and brilliant execution results in high-quality advertising with standards difficult to rise up to.">
-	<meta property="twitter:image" content="assets/images/image.jpeg"/>
+	<meta property="twitter:description" content="Hotel Bekal International">
+	<meta property="twitter:image" content="{{ asset('user/assets/img/bekal_logo/logo.png') }}"/>
 	<meta property="twitter:image" content="https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"/>
 
 		<!-- favicon -->
