@@ -43,13 +43,18 @@
                 </div>
                 <div class="col-md-5 mb-30 offset-md-1">
                     <h3>Get in touch</h3>
-                    <form method="POST" class="contact__form" action="mailto:booking@bekalinternational.com" enctype="text/plain">
-                        <!-- form message -->
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="alert alert-success contact__msg" style="display: none" role="alert"> Your message was sent successfully. </div>
-                            </div>
-                        </div>
+                    <form method="POST" class="contact__form" action="{{ route('user.enquiry') }}">
+                        @csrf
+                        @if (Session::get('success'))
+                          <div class="alert alert-success">
+                              {{ Session::get('success') }}
+                          </div>
+                        @endif
+                        @if (Session::get('fail'))
+                          <div class="alert alert-danger">
+                              {{ Session::get('fail') }}
+                          </div>
+                         @endif
                         <!-- form elements -->
                         <div class="row">
                             <div class="col-md-6 form-group">
@@ -62,13 +67,19 @@
                                 <input name="phone" type="text" placeholder="Your Number *" required>
                             </div>
                             <div class="col-md-6 form-group">
+                                <input name="country" type="text" placeholder="Your Country *" required>
+                            </div>
+                            <div class="col-md-6 form-group">
+                                <input name="city" type="text" placeholder="Your City *" required>
+                            </div>
+                            <div class="col-md-6 form-group">
                                 <input name="subject" type="text" placeholder="Subject *" required>
                             </div>
                             <div class="col-md-12 form-group">
                                 <textarea name="message" id="message" cols="30" rows="4" placeholder="Message *" required></textarea>
                             </div>
                             <div class="col-md-12">
-                                <button class="butn-dark"><a href="#0"><span>Send Message</span></a></button>
+                                <button type="submit" class="btn btn-dark"> Send Message</button>
                             </div>
                         </div>
                     </form>

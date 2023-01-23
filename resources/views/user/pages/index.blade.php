@@ -9,8 +9,8 @@
             <!-- The opacity on the image is made with "data-overlay-dark="number". You can change it using the numbers 0-9. -->
             <div class="video-fullscreen-video" data-overlay-dark="6">
                 <video playsinline="" autoplay="" loop="" muted="">
-                    <source src="https://duruthemes.com/demo/html/cappa/video.mp4" type="video/mp4" autoplay="" loop="" muted="">
-                    <source src="https://duruthemes.com/demo/html/cappa/video.webm" type="video/webm" autoplay="" loop="" muted="">
+                    <source src="{{ asset('user/assets/img/bekal/video/Video/1.MOV') }}" type="video/mp4" autoplay="" loop="" muted="">
+                    <source src="{{ asset('user/assets/img/bekal/video/Video/1.MOV') }}" type="video/webm" autoplay="" loop="" muted="">
                 </video>
             </div>
             <div class="v-middle caption overlay">
@@ -94,7 +94,7 @@
                     <div class="item">
                         <div class="position-re o-hidden"> <img src="{{ asset('user/assets/img/bekal/Bekal Pics/Standard Non AC/3.JPG')}}" alt=""> </div> <span class="category"><a href="contact.html">Book</a></span>
                         <div class="con">
-                            <h6><a href="#">150$ / Night</a></h6>
+                            {{-- <h6><a href="#">150$ / Night</a></h6> --}}
                             <h5><a href="{{ url('/standardRoom') }}">Standard Non AC Room</a> </h5>
                             <div class="line"></div>
                             <div class="row facilities">
@@ -117,7 +117,7 @@
                     <div class="item">
                         <div class="position-re o-hidden"> <img src="{{ asset('user/assets/img/bekal/Bekal Pics/Standard AC/7.JPG')}}" alt=""> </div> <span class="category"><a href="contact.html">Book</a></span>
                         <div class="con">
-                            <h6><a href="#">200$ / Night</a></h6>
+                            {{-- <h6><a href="#">200$ / Night</a></h6> --}}
                             <h5><a href="{{ url('/superiorRoom') }}">Superior AC Room</a></h5>
                             <div class="line"></div>
                             <div class="row facilities">
@@ -140,7 +140,7 @@
                     <div class="item">
                         <div class="position-re o-hidden"> <img src="{{ asset('user/assets/img/bekal/Bekal Pics/Deluxe Room/4.JPG')}}" alt=""> </div> <span class="category"><a href="contact.html">Book</a></span>
                         <div class="con">
-                            <h6><a href="#">250$ / Night</a></h6>
+                            {{-- <h6><a href="#">250$ / Night</a></h6> --}}
                             <h5><a href="{{ url('/deluxRoom') }}">Deluxe Room</a></h5>
                             <div class="line"></div>
                             <div class="row facilities">
@@ -163,7 +163,7 @@
                     <div class="item">
                         <div class="position-re o-hidden"> <img src="{{ asset('user/assets/img/bekal/Bekal Pics/Exec King Room/10.JPG')}}" alt=""> </div> <span class="category"><a href="contact.html">Book</a></span>
                         <div class="con">
-                            <h6><a href="#">300$ / Night</a></h6>
+                            {{-- <h6><a href="#">300$ / Night</a></h6> --}}
                             <h5><a href="{{ url('/executive_kingRoom') }}">Executive King Room</a></h5>
                             <div class="line"></div>
                             <div class="row facilities">
@@ -186,7 +186,7 @@
                     <div class="item">
                         <div class="position-re o-hidden"> <img src="{{ asset('user/assets/img/bekal/Bekal Pics/Exec Twin Room/8.JPG')}}" alt=""> </div> <span class="category"><a href="contact.html">Book</a></span>
                         <div class="con">
-                            <h6><a href="#">150$ / Night</a></h6>
+                            {{-- <h6><a href="#">150$ / Night</a></h6> --}}
                             <h5><a href="{{ url('/executive_twinRoom') }}">Executive Twin Room</a></h5>
                             <div class="line"></div>
                             <div class="row facilities">
@@ -209,7 +209,7 @@
                     <div class="item">
                         <div class="position-re o-hidden"> <img src="{{ asset('user/assets/img/bekal/Bekal Pics/Exec Suite/7.jpg')}}" alt=""> </div> <span class="category"><a href="contact.html">Book</a></span>
                         <div class="con">
-                            <h6><a href="#">300$ / Night</a></h6>
+                            {{-- <h6><a href="#">300$ / Night</a></h6> --}}
                             <h5><a href="{{ url('/suite_kingRoom') }}">Suite King Room</a></h5>
                             <div class="line"></div>
                             <div class="row facilities">
@@ -232,7 +232,7 @@
                     <div class="item">
                         <div class="position-re o-hidden"> <img src="{{ asset('user/assets/img/bekal/Bekal Pics/Suite Twin/5.jpeg')}}" alt=""> </div> <span class="category"><a href="contact.html">Book</a></span>
                         <div class="con">
-                            <h6><a href="#">150$ / Night</a></h6>
+                            {{-- <h6><a href="#">150$ / Night</a></h6> --}}
                             <h5><a href="{{ url('/suite_twinRoom') }}">Suite Twin Room</a></h5>
                             <div class="line"></div>
                             <div class="row facilities">

@@ -195,6 +195,16 @@
                     </nav>
                 </div>
                 
+                @if (Session::get('success'))
+                          <div class="alert alert-success">
+                              {{ Session::get('success') }}
+                          </div>
+                        @endif
+                        @if (Session::get('fail'))
+                          <div class="alert alert-danger">
+                              {{ Session::get('fail') }}
+                          </div>
+                         @endif
                 <div class="row layout-top-spacing" id="cancel-row">
                 
                     <div class="col-xl-12 col-lg-12 col-sm-12  layout-spacing">
@@ -209,35 +219,43 @@
                                         <th>Name</th>
                                         <th>Email</th>
                                         <th>Phone</th>
-                                        <th>Location</th>
-                                        <th>No.Of Ads</th>
-                                        <th>No.Of Banners</th>
-                                        <th class="text-center">Account Status</th>
+                                        <th>Country</th>
+                                        <th>City</th>
+                                        <th>Subject</th>
+                                        <th>Message</th>
                                         <th class="text-center dt-no-sorting">Action</th>
                                     </tr>
                                 </thead>
                                 <tbody>
+                                    <?php
+                                    $enquiry = DB::table('contacts')->get(); ?>
+                                    @foreach ($enquiry as $item)
                                     <tr>
-                                        <td>1</td>
-                                        <td>name</td>
-                                        <td>E-mail</td>
-                                        <td>+971 658254852</td>
-                                        <td>Dubai</td>
-                                        <td>1</td>
-                                        <td>2</td>
+                                        <td>{{ $item->id }}</td>
+                                        <td>{{ $item->name }}</td>
+                                        <td>{{ $item->email }}</td>
+                                        <td>{{ $item->phone }}</td>
+                                        <td>{{ $item->country }}</td>
+                                        <td>{{ $item->city }}</td>
+                                        <td>{{ $item->subject }}</td>
+                                        <td>{{ $item->message }}</td>
                                         <td class="text-center">
-                                            <span class="badge badge-success"> Active </span>
-                                            <span class="badge badge-danger"> Deactive </span>
-                                        </td>
-                                        <td class="text-center">
-                                            <ul class="table-controls">
-                                                <li><a href="userview.html" class="bs-tooltip"
+                                                <a href="{{ url('admin/enquiry_delete') }}/{{ $item->id }}" class="bs-tooltip"
                                                         data-toggle="tooltip" data-placement="top" title=""
-                                                        data-original-title="View Customer"><i data-feather="eye"></i></a></li>
-                                            </ul>
+                                                        data-original-title="Delete session"><svg
+                                                            xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                                            stroke-width="2" stroke-linecap="round"
+                                                            stroke-linejoin="round"
+                                                            class="feather feather-trash p-1 br-6 mb-1">
+                                                            <polyline points="3 6 5 6 21 6"></polyline>
+                                                            <path
+                                                                d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2">
+                                                            </path>
+                                                        </svg></a>
                                         </td>
                                     </tr>
-
+                                    @endforeach
                                 </tbody>
                             </table>
                         </div>

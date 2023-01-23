@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Middleware\AdminAuth;
 
@@ -33,6 +34,8 @@ Route::group(['middleware' => ['AdminAuth']], function () {
     Route::get('admin/blog_delete/{id}', [BlogController::class, 'delete_blog']);
     Route::get('admin/view_adminblog/{id}', [BlogController::class, 'view_adminblog']);
     Route::put('update_blog/{id}', [BlogController::class, 'update_blog']);
+    Route::get('admin/enquiry_delete/{id}', [ContactController::class, 'delete_enquiry']);
+
 });
 Route::get('admin/login', [AdminController::class, 'login']);
 Route::get('admin/hash', [AdminController::class, 'hashp']);
@@ -40,6 +43,8 @@ Route::get('admin/hash', [AdminController::class, 'hashp']);
 
 // USER SIDE //
 Route::get('user/blogDetails/{id}', [BlogController::class, 'sb'])->name('s.b');
+Route::post('/enquiry', [ContactController::class, 'enquiry'])->name('user.enquiry');
+
 
 Route::get('/', function () {
     return view('user/pages/index');
