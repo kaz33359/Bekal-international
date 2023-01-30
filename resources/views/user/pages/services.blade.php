@@ -21,7 +21,7 @@
             <div class="row">
                 <div class="col-md-6 p-0 animate-box" data-animate-effect="fadeInLeft">
                     <div class="img left">
-                        <a href="restaurant.html"><img src="{{ asset('user/assets/img/restaurant/1.jpg') }}" alt=""></a>
+                        <a href="restaurant.html"><img src="{{ asset('user/assets/img/bekal/Bekal Pics/Restaurant/3.jpg')}}" alt=""></a>
                     </div>
                 </div>
                 <div class="col-md-6 p-0 bg-cream valign animate-box" data-animate-effect="fadeInRight">
@@ -31,7 +31,7 @@
                                 <h6>Discover</h6>
                             </div>
                             <h4>The Restaurant</h4>
-                            <p>Restaurant inilla duiman at elit finibus viverra nec a lacus themo the nesudea seneoice misuscipit non sagie the fermen ziverra tristiue duru the ivite dianne onen nivami acsestion augue artine.</p>
+                            <p>COMING SOON</p>
                             <div class="butn-dark"> <a href="restaurant.html"><span>Learn More</span></a> </div>
                         </div>
                     </div>
@@ -45,14 +45,14 @@
                                 <h6>Experiences</h6>
                             </div>
                             <h4>Banquet Hall</h4>
-                            <p>Spa center inilla duiman at elit finibus viverra nec a lacus themo the nesudea seneoice misuscipit non sagie the fermen ziverra tristiue duru the ivite dianne onen nivami acsestion augue artine.</p>
+                            <p>From birthdays, weddings, cocktails, to office meetings you can use our banquet for all such events. Luxurious, Stylish and Contemporary space with unsurpassed attention to detail, we make every occasion extraordinary.</p>
                             <div class="butn-dark"> <a href="spa-wellness.html"><span>Learn More</span></a> </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 p-0 order1 animate-box" data-animate-effect="fadeInRight">
                     <div class="img">
-                        <a href="spa-wellness.html"><img src="{{ asset('user/assets/img/bekal/banquetHall.jpg') }}" alt=""></a>
+                        <a href="spa-wellness.html"><img src="{{ asset('user/assets/img/bekal/Bekal Pics/Banquet Hall/7.JPG')}}" alt=""></a>
                     </div>
                 </div>
             </div>
@@ -69,7 +69,7 @@
                                 <h6>Modern</h6>
                             </div>
                             <h4>Party hall</h4>
-                            <p>Restaurant inilla duiman at elit finibus viverra nec a lacus themo the nesudea seneoice misuscipit non sagie the fermen ziverra tristiue duru the ivite dianne onen nivami acsestion augue artine.</p>
+                            <p>Five well-equipped, tech-powered meeting rooms and venues with capacities ranging from 18 to 300 are designed to cater to diverse requirements, from a cosy meeting room with state-of-the-art conferencing facilities to a grand ballroom with safety pillars and a plush al fresco area for a glamorous wedding reception, and every manner of corporate dos and parties.</p>
                             <div class="butn-dark"> <a href="spa-wellness.html"><span>Learn More</span></a> </div>
                         </div>
                     </div>
@@ -83,7 +83,7 @@
                                 <h6>Experiences</h6>
                             </div>
                             <h4>Ayurvedic Massage</h4>
-                            <p>The health club & pool at elit finibus viverra nec a lacus themo the nesudea seneoice misuscipit non sagie the fermen ziverra tristiue duru the ivite dianne onen nivami acsestion augue artine.</p>
+                            <p>Allow yourself to be pampered with our customized Ayurvedic treatments that include body revitalization, rejuvenation, anti-ageing treatments and special facials.</p>
                             <div class="butn-dark"> <a href="spa-wellness.html"><span>Learn More</span></a> </div>
                         </div>
                     </div>

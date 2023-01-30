@@ -100,7 +100,7 @@
                         <img src="{{ asset('user/assets/img/bekal_logo/logo dark.png')}}" class="logo-img" alt="">
                     </div>
                             <h3 class="footer-title"></h3>
-                            <p class="footer-about-text">Welcome to the best five-star deluxe hotel in New York. Hotel elementum sesue the aucan vestibulum aliquam justo in sapien rutrum volutpat.</p>
+                            <p class="footer-about-text">Top business class hotel in Kanhangad, with latest infrastructure and modern facilities established in the year 2000, completely renovated in 2022 under the ownership of KK Abdullah Haji, Udma managed by Abdul Latheef KK.</p>
 
                             <!-- <div class="footer-language"> <i class="lni ti-world"></i>
                                 <select onchange="location = this.value;">
@@ -126,7 +126,7 @@
                     <div class="col-md-4">
                         <div class="footer-column footer-contact">
                             <h3 class="footer-title">Contact</h3>
-                            <p class="footer-contact-text">Hotel Bekal International<br>TB Road, Kanhangad 671315</p>
+                            <p class="footer-contact-text">Hotel Bekal International<br>TB Road, Kanhangad, Kerala 671315</p>
                             <div class="footer-contact-info">
                                 <p class="footer-contact-phone"><span class="flaticon-call"></span> <a href="tel:04672202017">04672202017</a></p>
                                 <p class="footer-contact-mail"><span class="flaticon-envelope"></span> <a href="mailto:booking@bekalinternational.com">booking@bekalinternational.com</a></p>

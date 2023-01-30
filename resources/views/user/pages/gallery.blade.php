@@ -102,7 +102,7 @@
         </div>
     </section>
     <!-- Video Gallery -->
-    <section class="section-padding bg-cream">
+    {{-- <section class="section-padding bg-cream">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -158,5 +158,5 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
     @endsection

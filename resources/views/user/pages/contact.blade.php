@@ -20,7 +20,7 @@
             <div class="row mb-90">
                 <div class="col-md-6 mb-60">
                     <h3>Hotel Bekal International</h3>
-                    <p>Hotel ut nisl quam nestibulum ac quam nec odio elementum sceisue the aucan ligula. Orci varius natoque penatibus et magnis dis parturient monte nascete ridiculus mus nellentesque habitant morbine.</p>
+                    <p>Top business class hotel in Kanhangad, with latest infrastructure and modern facilities established in the year 2000, completely renovated in 2022 under the ownership of KK Abdullah Haji, Udma managed by Abdul Latheef KK.</p>
                     <div class="reservations mb-30">
                         <div class="icon"><span class="flaticon-call"></span></div>
                         <div class="text">
@@ -37,7 +37,7 @@
                         <div class="icon"><span class="flaticon-location-pin"></span></div>
                         <div class="text">
                             <p>Address</p> Hotel Bekal International
-                            <br>TB Road, Kanhangad 671315
+                            <br>TB Road, Kanhangad, Kerala 671315
                         </div>
                     </div>
                 </div>

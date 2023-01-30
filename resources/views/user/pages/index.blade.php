@@ -72,10 +72,10 @@
                     </div>
                 </div>
                 <div class="col col-md-3 animate-box" data-animate-effect="fadeInUp">
-                    <img src="{{ asset('user/assets/img/bekal/Bekal Pics/Reception/7.JPG') }}" alt="" class="mt-90 mb-30">
+                    <img src="{{ asset('user/assets/img/bekal/Bekal Pics/Reception/2.JPG') }}" alt="" class="mt-90 mb-30">
                 </div>
                 <div class="col col-md-3 animate-box" data-animate-effect="fadeInUp">
-                    <img src="{{ asset('user/assets/img/bekal/Bekal Pics/eXTERIOR/4.JPG') }}" alt="">
+                    <img src="{{ asset('user/assets/img/bekal/Bekal Pics/Reception/6.JPG') }}" alt="">
                 </div>
             </div>
         </div>
@@ -476,7 +476,7 @@
             <div class="row">
                 <div class="col-md-6 p-0 animate-box" data-animate-effect="fadeInLeft">
                     <div class="img left">
-                        <a href="services.html"><img src="{{ asset('user/assets/img/restaurant/1.jpg')}}" alt="" loading="lazy"></a>
+                        <a href="services.html"><img src="{{ asset('user/assets/img/bekal/Bekal Pics/Restaurant/3.jpg')}}" alt="" loading="lazy"></a>
                     </div>
                 </div>
                 <div class="col-md-6 p-0 bg-cream valign animate-box" data-animate-effect="fadeInRight">
@@ -486,7 +486,7 @@
                                 <h6>Discover</h6>
                             </div>
                             <h4>The Restaurant</h4>
-                            <p>Senses is a multi-cuisine restaurant. Our lovely staff will ensure you have a pleasant visit. We pride ourselves on providing quality, Fresh and delicious food and drinks.</p>
+                            <p>COMING SOON</p>
                             <div class="butn-dark"> <a href="services.html"><span>Learn More</span></a> </div>
                         </div>
                     </div>
@@ -507,7 +507,7 @@
                 </div>
                 <div class="col-md-6 p-0 order1 animate-box" data-animate-effect="fadeInRight">
                     <div class="img">
-                        <a href="services.html"><img src="{{ asset('user/assets/img/bekal/Bekal Pics/Banquet Hall/1.JPG')}}" alt="" loading="lazy"></a>
+                        <a href="services.html"><img src="{{ asset('user/assets/img/bekal/Bekal Pics/Banquet Hall/7.JPG')}}" alt="" loading="lazy"></a>
                     </div>
                 </div>
             </div>
