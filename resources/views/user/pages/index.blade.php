@@ -61,10 +61,11 @@
                     </span>
                     <div class="section-subtitle">Hotel Bekal International</div>
                     <div class="section-title">Enjoy a Luxury Experience</div>
-                    <p>Top business class hotel in Kanhangad, with latest infrastructure and modern facilities established in the year 2000, completely renovated in 2022 under the ownership of KK Abdullah Haji, Udma managed by Abdul Latheef KK.</p>
+                    <p>At Bekal International , we understand that great service is the key to a memorable stay. That's why our team is dedicated to providing personalised and attentive service to ensure that our guests feel at home. Whether you're here for business or pleasure, our staff will go above and beyond to make your stay as enjoyable as possible.</p>
                     <!-- <p>Hotel ut nisl quam nestibulum ac quam nec odio elementum sceisue the aucan ligula. Orci varius natoque penatibus et magnis dis parturient monte nascete ridiculus mus nellentesque habitant morbine.</p> -->
                     <!-- call -->
-                    <div class="reservations">
+                    <button class="btn btn-dark"> <a href="{{ url('/about') }}">Read More</a></button>
+                    <div class="reservations" style="padding-top: 20px">
                         <div class="icon"><span class="flaticon-call"></span></div>
                         <div class="text">
                             <p>Reservation</p> <a href="tel:04672202017">04672202017</a>
@@ -545,7 +546,7 @@
                 </div>
                 <div class="col-md-6 p-0 order1 animate-box" data-animate-effect="fadeInRight">
                     <div class="img">
-                        <a href="services.html"><img src="{{ asset('user/assets/img/bekal/ayurvedicMassage.jpg')}}" alt="" loading="lazy"></a>
+                        <a href="services.html"><img src="{{ asset('user/assets/img/bekal/ayurveda.jpg')}}" alt="" loading="lazy"></a>
                     </div>
                 </div>
             </div> 
@@ -563,19 +564,21 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="owl-carousel owl-theme">
+                        <?php
+                        $blog=DB::table('blogs')->get(); ?>
+                        @foreach ($blog as $item)
                         <div class="item">
-                            <div class="position-re o-hidden"> <img src="{{ asset('user/assets/img/news/1.jpg')}}" alt="">
+                            <div class="position-re o-hidden"> <img src="{{ asset('adminBlog_image')}}/{{ $item->blog_image }}" alt="">
                                 <div class="date">
-                                    <a href="post.html"> <span>Dec</span> <i>02</i> </a>
+                                    <a href="post.html">{{ $item->posted_date }}</a>
                                 </div>
                             </div>
-                            <div class="con"> <span class="category">
-                                    <a href="news.html">Restaurant</a>
-                                </span>
-                                <h5><a href="post.html">Historic restaurant renovated</a></h5>
+                            <div class="con">
+                            <h5><a href="{{ url('user/blogDetails') }}/{{ $item->id }}">{{ $item->blog_title }}</a></h5>
                             </div>
                         </div>
-                        <div class="item">
+                        @endforeach
+                        {{-- <div class="item">
                             <div class="position-re o-hidden"> <img src="{{ asset('user/assets/img/news/2.jpg')}}" alt="">
                                 <div class="date">
                                     <a href="post.html"> <span>Dec</span> <i>04</i> </a>
@@ -636,7 +639,7 @@
                                 </span>
                                 <h5><a href="post.html">Benefits of Swimming for Your Health</a></h5>
                             </div>
-                        </div>
+                        </div> --}}
                         
                         
                     </div>

@@ -29,8 +29,11 @@
                     </span>
                     <div class="section-subtitle">Hotel Bekal International</div>
                     <div class="section-title">Enjoy a Luxury Experience</div>
-                    {{-- <p>Top business class hotel in Kanhangad, with latest infrastructure and modern facilities established in the year 2000, completely renovated in 2022 under the ownership of KK Abdullah Haji, Udma managed by Abdul Latheef KK.</p> --}}
-                    <p>Located in the heart of Kanhangad, the top business class hotel is a perfect blend of modern facilities and latest infrastructure. Established in 2000, it was completely renovated in 2022 to provide the best experience for its guests. With state-of-the-art amenities and luxurious interiors, this hotel provides a unique and luxurious experience for all its guests. From comfortable rooms to an array of dining options, this hotel has everything you need to make your stay memorable. Whether you are on a business trip or just looking for a relaxing getaway, the top business class hotel in Kanhangad is sure to provide you with an unforgettable experience.</p>
+                    <p>Welcome to Bekal International, a premier hotel located in the heart of Kanhangad . Our hotel offers guests the perfect blend of comfort, luxury, Affordable and convenience. We are proud to provide our guests with top-notch amenities, including Restaurant, Banquet Hall, Party hall , Ayurvedic Massage.</p>
+                    <p>Our rooms are designed with your comfort in mind, featuring Daily Housekeeping, Breakfast on call, Free Wifi and many more</p>
+                    <p>At Bekal International , we understand that great service is the key to a memorable stay. That's why our team is dedicated to providing personalised and attentive service to ensure that our guests feel at home. Whether you're here for business or pleasure, our staff will go above and beyond to make your stay as enjoyable as possible.</p>
+                    <p>We are also conveniently located near some of Kanhangad 's most popular attractions, including Thaikadappuram beach 8 km, Bekal Fort 10 km, Bekal beach 9 km, Kottappuram backwater 10 km, Anandashram 5 km. Whether you're here to explore the city or simply to relax, our hotel is the perfect place to call home during your stay.</p>
+                    <p>We look forward to welcoming you to Bekal International  and making your stay with us an unforgettable experience.</p>
                     <!-- reservation -->
                     <div class="reservations">
                         <div class="icon"><span class="flaticon-call"></span></div>
@@ -39,8 +42,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col col-md-3 animate-box" data-animate-effect="fadeInUp"> <img src="{{ asset('user/assets/img/bekal/Bekal Pics/Reception/7.JPG') }}" alt="" class="mt-90 mb-30"> </div>
-                <div class="col col-md-3 animate-box" data-animate-effect="fadeInUp"> <img src="{{ asset('user/assets/img/bekal/Bekal Pics/eXTERIOR/4.JPG') }}" alt=""> </div>
+                <div class="col col-md-3 animate-box" data-animate-effect="fadeInUp"> <img src="{{ asset('user/assets/img/bekal/Bekal Pics/Reception/7.JPG') }}" alt="" class="mt-90 mb-30" loading="lazy"> </div>
+                <div class="col col-md-3 animate-box" data-animate-effect="fadeInUp"> <img src="{{ asset('user/assets/img/bekal/Bekal Pics/eXTERIOR/4.JPG') }}" alt="" loading="lazy"> </div>
             </div>
         </div>
     </section>
@@ -199,7 +202,7 @@
         </div>
     </section>
     <!-- Team -->
-    <section class="team section-padding bg-cream">
+    {{-- <section class="team section-padding bg-cream">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -311,5 +314,5 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 @endsection

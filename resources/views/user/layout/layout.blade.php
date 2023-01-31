@@ -65,7 +65,7 @@
         <div class="container">
             <!-- Logo -->
             <div class="logo-wrapper navbar-brand valign">
-                <a href="index.html">
+                <a href="{{ url('/') }}">
                     <div class="logo">
                         <img src="{{ asset('user/assets/img/bekal_logo/logo dark.png')}}" class="logo-img" alt="">
                     </div>
@@ -100,7 +100,7 @@
                         <img src="{{ asset('user/assets/img/bekal_logo/logo dark.png')}}" class="logo-img" alt="">
                     </div>
                             <h3 class="footer-title"></h3>
-                            <p class="footer-about-text">Top business class hotel in Kanhangad, with latest infrastructure and modern facilities established in the year 2000, completely renovated in 2022 under the ownership of KK Abdullah Haji, Udma managed by Abdul Latheef KK.</p>
+                            <p class="footer-about-text">Located in the heart of Kanhangad, the top business class hotel is a perfect blend of modern facilities and latest infrastructure. Established in 2000, it was completely renovated in 2022 to provide the best experience for its guests.</p>
 
                             <!-- <div class="footer-language"> <i class="lni ti-world"></i>
                                 <select onchange="location = this.value;">
@@ -114,12 +114,12 @@
                         <div class="footer-column footer-explore clearfix">
                             <h3 class="footer-title">Explore</h3>
                             <ul class="footer-explore-list list-unstyled">
-                                <li><a href="index.html">Home</a></li>
-                                <li><a href="about.html">About</a></li>
-                                <li><a href="services.html">Services</a></li>
-                                <li><a href="blog.html">Blog</a></li>
-                                <li><a href="gallery.html">Gallery</a></li>
-                                <li><a href="contact.html">Contact</a></li>
+                                <li><a href="{{ url('/') }}">Home</a></li>
+                                <li><a href="{{ url('/about') }}">About</a></li>
+                                <li><a href="{{ url('/services') }}">Services</a></li>
+                                <li><a href="{{ url('/blog') }}">Blog</a></li>
+                                <li><a href="{{ url('/gallery') }}">Gallery</a></li>
+                                <li><a href="{{ url('/contact') }}">Contact</a></li>
                             </ul>
                         </div>
                     </div>

@@ -28,21 +28,21 @@
                 <div class="col-md-4 gallery-item">
                     <a href="{{ asset('user/assets/img/bekal/1.jpeg') }}" title="" class="img-zoom">
                         <div class="gallery-box">
-                            <div class="gallery-img"> <img src="{{ asset('user/assets/img/bekal/1.jpeg') }}" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                            <div class="gallery-img"> <img src="{{ asset('user/assets/img/bekal/1.jpeg') }}" class="img-fluid mx-auto d-block" alt="work-img" loading="lazy"> </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-md-4 gallery-item">
                     <a href="{{ asset('user/assets/img/bekal/2.jpeg') }}" title="" class="img-zoom">
                         <div class="gallery-box">
-                            <div class="gallery-img"> <img src="{{ asset('user/assets/img/bekal/2.jpeg') }}" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                            <div class="gallery-img"> <img src="{{ asset('user/assets/img/bekal/2.jpeg') }}" class="img-fluid mx-auto d-block" alt="work-img" loading="lazy"> </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-md-4 gallery-item">
                     <a href="{{ asset('user/assets/img/bekal/3.jpeg') }}" title="" class="img-zoom">
                         <div class="gallery-box">
-                            <div class="gallery-img"> <img src="{{ asset('user/assets/img/bekal/3.jpeg') }}" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                            <div class="gallery-img"> <img src="{{ asset('user/assets/img/bekal/3.jpeg') }}" class="img-fluid mx-auto d-block" alt="work-img" loading="lazy"> </div>
                         </div>
                     </a>
                 </div>
@@ -50,14 +50,14 @@
                 <div class="col-md-6 gallery-item">
                     <a href="{{ asset('user/assets/img/bekal/4.jpeg') }}" title="" class="img-zoom">
                         <div class="gallery-box">
-                            <div class="gallery-img"> <img src="{{ asset('user/assets/img/bekal/4.jpeg') }}" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                            <div class="gallery-img"> <img src="{{ asset('user/assets/img/bekal/4.jpeg') }}" class="img-fluid mx-auto d-block" alt="work-img" loading="lazy"> </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-md-6 gallery-item">
                     <a href="{{ asset('user/assets/img/bekal/5.jpeg') }}" title="" class="img-zoom">
                         <div class="gallery-box">
-                            <div class="gallery-img"> <img src="{{ asset('user/assets/img/bekal/5.jpeg') }}" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                            <div class="gallery-img"> <img src="{{ asset('user/assets/img/bekal/5.jpeg') }}" class="img-fluid mx-auto d-block" alt="work-img" loading="lazy"> </div>
                         </div>
                     </a>
                 </div>
@@ -65,21 +65,21 @@
                 <div class="col-md-4 gallery-item">
                     <a href="{{ asset('user/assets/img/bekal/6.jpeg') }}" title="" class="img-zoom">
                         <div class="gallery-box">
-                            <div class="gallery-img"> <img src="{{ asset('user/assets/img/bekal/6.jpeg') }}" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                            <div class="gallery-img"> <img src="{{ asset('user/assets/img/bekal/6.jpeg') }}" class="img-fluid mx-auto d-block" alt="work-img" loading="lazy"> </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-md-4 gallery-item">
                     <a href="{{ asset('user/assets/img/bekal/8.jpeg') }}" title="" class="img-zoom">
                         <div class="gallery-box">
-                            <div class="gallery-img"> <img src="{{ asset('user/assets/img/bekal/8.jpeg') }}" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                            <div class="gallery-img"> <img src="{{ asset('user/assets/img/bekal/8.jpeg') }}" class="img-fluid mx-auto d-block" alt="work-img" loading="lazy"> </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-md-4 gallery-item">
                     <a href="{{ asset('user/assets/img/bekal/7.jpeg') }}" title="" class="img-zoom">
                         <div class="gallery-box">
-                            <div class="gallery-img"> <img src="{{ asset('user/assets/img/bekal/7.jpeg') }}" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                            <div class="gallery-img"> <img src="{{ asset('user/assets/img/bekal/7.jpeg') }}" class="img-fluid mx-auto d-block" alt="work-img" loading="lazy"> </div>
                         </div>
                     </a>
                 </div>
@@ -87,14 +87,14 @@
                 <div class="col-md-6 gallery-item">
                     <a href="{{ asset('user/assets/img/bekal/9.jpeg') }}" title="" class="img-zoom">
                         <div class="gallery-box">
-                            <div class="gallery-img"> <img src="{{ asset('user/assets/img/bekal/9.jpeg') }}" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                            <div class="gallery-img"> <img src="{{ asset('user/assets/img/bekal/9.jpeg') }}" class="img-fluid mx-auto d-block" alt="work-img" loading="lazy"> </div>
                         </div>
                     </a>
                 </div>
                 <div class="col-md-6 gallery-item">
                     <a href="{{ asset('user/assets/img/bekal/10.jpeg') }}" title="" class="img-zoom">
                         <div class="gallery-box">
-                            <div class="gallery-img"> <img src="{{ asset('user/assets/img/bekal/10.jpeg') }}" class="img-fluid mx-auto d-block" alt="work-img"> </div>
+                            <div class="gallery-img"> <img src="{{ asset('user/assets/img/bekal/10.jpeg') }}" class="img-fluid mx-auto d-block" alt="work-img" loading="lazy"> </div>
                         </div>
                     </a>
                 </div>

@@ -90,7 +90,7 @@
                 </div>
                 <div class="col-md-6 p-0 order1 animate-box" data-animate-effect="fadeInRight">
                     <div class="img">
-                        <a href="spa-wellness.html"><img src="{{ asset('user/assets/img/bekal/ayurvedicMassage.jpg') }}" alt=""></a>
+                        <a href="spa-wellness.html"><img src="{{ asset('user/assets/img/bekal/ayurveda.jpg') }}" alt=""></a>
                     </div>
                 </div>
             </div> 
