@@ -42,6 +42,6 @@ class ContactController extends Controller
     public function delete_enquiry(Request $request, $id)
     {
         $model = contact::where('id', $id)->delete();
-        return redirect()->back()->with('success', 'Plan deleted successfully');
+        return redirect()->back()->with('success', 'Enquiry deleted successfully');
     }
 }
