@@ -53,7 +53,7 @@
                 </svg></a>
 
             <div class="nav-logo align-self-center">
-                <a class="navbar-brand" href="index.html"> <img alt="logo" src="{{ asset('admin/assets/img/bekal/logo dark.png')}}"> <span
+                <a class="navbar-brand" href="{{ url('admin/index') }}"> <img alt="logo" src="{{ asset('admin/assets/img/bekal/logo dark.png')}}"> <span
                         class="navbar-brand-name"></span></a>
             </div>
 
@@ -146,7 +146,7 @@
                 <ul class="list-unstyled menu-categories" id="topAccordion">
 
                     <li class="menu single-menu active">
-                        <a href="blog.html">
+                        <a href="{{ url('admin/index') }}">
                             <div class="">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"

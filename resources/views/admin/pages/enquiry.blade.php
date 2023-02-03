@@ -54,7 +54,7 @@
                 </svg></a>
 
             <div class="nav-logo align-self-center">
-                <a class="navbar-brand" href="index.html"> <img alt="logo" src="assets/img/bekal/logo dark.png"><span
+                <a class="navbar-brand" href="{{ url('admin/index') }}"> <img alt="logo" src="assets/img/bekal/logo dark.png"><span
                         class="navbar-brand-name"></span></a>
             </div>
 
@@ -107,7 +107,7 @@
                             </a>
                         </div> -->
                         <div class="dropdown-item">
-                            <a href="auth_login.html">
+                            <a href="{{ url('admin/logout') }}">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                                     stroke-linejoin="round" class="feather feather-log-out">
@@ -135,7 +135,7 @@
             <nav id="topbar">
                 <ul class="navbar-nav theme-brand flex-row  text-center">
                     <li class="nav-item theme-logo">
-                        <a href="index.html">
+                        <a href="{{ url('admin/index') }}">
                             <img src="assets/img/bekal/logo dark.png" class="navbar-logo" alt="logo">
                         </a>
                     </li>
@@ -148,7 +148,7 @@
 
 
                     <li class="menu single-menu">
-                        <a href="index.html">
+                        <a href="{{ url('admin/index') }}">
                             <div class="">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -167,7 +167,7 @@
 
 
                     <li class="menu single-menu active">
-                        <a href="enquiry.html">
+                        <a href="{{ url('admin/enquiry') }}">
                             <div class="">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                     fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
