@@ -20,7 +20,7 @@
             <div class="row mb-90">
                 <div class="col-md-6 mb-60">
                     <h3>Hotel Bekal International</h3>
-                    <p>Top business class hotel in Kanhangad, with latest infrastructure and modern facilities established in the year 2000, completely renovated in 2022 under the ownership of KK Abdullah Haji, Udma managed by Abdul Latheef KK.</p>
+                    <p>Our hotel is the ideal place to call home while you are here, whether you  are on a business trip or on a leasure trip just to unwind. We are eager to make your visit to Bekal International a memorable one and look forward to greeting you.</p>
                     <div class="reservations mb-30">
                         <div class="icon"><span class="flaticon-call"></span></div>
                         <div class="text">
